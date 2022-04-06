@@ -1,0 +1,3040 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="s00001_1033" xml:space="preserve">
+    <value>Cost time</value>
+  </data>
+  <data name="s00001_2052" xml:space="preserve">
+    <value>计算时间</value>
+  </data>
+  <data name="s10001_1033" xml:space="preserve">
+    <value>Default Settings</value>
+  </data>
+  <data name="s10001_2052" xml:space="preserve">
+    <value>默认设置</value>
+  </data>
+  <data name="s11001_1033" xml:space="preserve">
+    <value>Outer Diameter</value>
+  </data>
+  <data name="s11001_2052" xml:space="preserve">
+    <value>头外径</value>
+  </data>
+  <data name="s11002_1033" xml:space="preserve">
+    <value>Error when calculating outer diameter</value>
+  </data>
+  <data name="s11002_2052" xml:space="preserve">
+    <value>定位错误</value>
+  </data>
+  <data name="s11003_1033" xml:space="preserve">
+    <value>Error when find shape</value>
+  </data>
+  <data name="s11003_2052" xml:space="preserve">
+    <value>查找形状错误</value>
+  </data>
+  <data name="s11004_1033" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="s11004_2052" xml:space="preserve">
+    <value>圆心</value>
+  </data>
+  <data name="s11005_1033" xml:space="preserve">
+    <value>Max outer diameter is substandard</value>
+  </data>
+  <data name="s11005_2052" xml:space="preserve">
+    <value>最大外径未达标</value>
+  </data>
+  <data name="s11006_1033" xml:space="preserve">
+    <value>Max outer diameter</value>
+  </data>
+  <data name="s11006_2052" xml:space="preserve">
+    <value>最大外径</value>
+  </data>
+  <data name="s11007_1033" xml:space="preserve">
+    <value>Min outer diameter is substandard</value>
+  </data>
+  <data name="s11007_2052" xml:space="preserve">
+    <value>最小外径未达标</value>
+  </data>
+  <data name="s11008_1033" xml:space="preserve">
+    <value>Min outer diameter</value>
+  </data>
+  <data name="s11008_2052" xml:space="preserve">
+    <value>最小外径</value>
+  </data>
+  <data name="s11009_1033" xml:space="preserve">
+    <value>Roundness is substandard</value>
+  </data>
+  <data name="s11009_2052" xml:space="preserve">
+    <value>真圆度未达标</value>
+  </data>
+  <data name="s11010_1033" xml:space="preserve">
+    <value>Roundness</value>
+  </data>
+  <data name="s11010_2052" xml:space="preserve">
+    <value>真圆度</value>
+  </data>
+  <data name="s11011_1033" xml:space="preserve">
+    <value>Side crack is substandard</value>
+  </data>
+  <data name="s11011_2052" xml:space="preserve">
+    <value>边缘开裂未达标</value>
+  </data>
+  <data name="s11012_1033" xml:space="preserve">
+    <value>Side crack</value>
+  </data>
+  <data name="s11012_2052" xml:space="preserve">
+    <value>边缘开裂</value>
+  </data>
+  <data name="s12001_1033" xml:space="preserve">
+    <value>Binarize</value>
+  </data>
+  <data name="s12001_2052" xml:space="preserve">
+    <value>二值化</value>
+  </data>
+  <data name="s12002_1033" xml:space="preserve">
+    <value>&lt;No&gt;</value>
+  </data>
+  <data name="s12002_2052" xml:space="preserve">
+    <value>&lt;无&gt;</value>
+  </data>
+  <data name="s12003_1033" xml:space="preserve">
+    <value>Inter-variance</value>
+  </data>
+  <data name="s12003_2052" xml:space="preserve">
+    <value>二值化 自动</value>
+  </data>
+  <data name="s13001_1033" xml:space="preserve">
+    <value>Remove Noise</value>
+  </data>
+  <data name="s13001_2052" xml:space="preserve">
+    <value>去除杂斑</value>
+  </data>
+  <data name="s14001_1033" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="s14001_2052" xml:space="preserve">
+    <value>恢复影像</value>
+  </data>
+  <data name="s15001_1033" xml:space="preserve">
+    <value>Ring crack</value>
+  </data>
+  <data name="s15001_2052" xml:space="preserve">
+    <value>轮裂</value>
+  </data>
+  <data name="s15002_1033" xml:space="preserve">
+    <value>Error when calculating ring crack</value>
+  </data>
+  <data name="s15002_2052" xml:space="preserve">
+    <value>计算轮裂时出错</value>
+  </data>
+  <data name="s15003_1033" xml:space="preserve">
+    <value>Can not find the head</value>
+  </data>
+  <data name="s15003_2052" xml:space="preserve">
+    <value>未找到头部</value>
+  </data>
+  <data name="s15004_1033" xml:space="preserve">
+    <value>Max ring crack is substandard</value>
+  </data>
+  <data name="s15004_2052" xml:space="preserve">
+    <value>最大中心开裂度未达标</value>
+  </data>
+  <data name="s15005_1033" xml:space="preserve">
+    <value>Max ring crack</value>
+  </data>
+  <data name="s15005_2052" xml:space="preserve">
+    <value>最大中心开裂度</value>
+  </data>
+  <data name="s16001_1033" xml:space="preserve">
+    <value>/Min</value>
+  </data>
+  <data name="s16001_2052" xml:space="preserve">
+    <value>/分钟</value>
+  </data>
+  <data name="s16002_1033" xml:space="preserve">
+    <value>&amp;Setup...</value>
+  </data>
+  <data name="s16002_2052" xml:space="preserve">
+    <value>设置(&amp;S)</value>
+  </data>
+  <data name="s16003_1033" xml:space="preserve">
+    <value>St&amp;op</value>
+  </data>
+  <data name="s16003_2052" xml:space="preserve">
+    <value>停止(&amp;A)</value>
+  </data>
+  <data name="s16004_1033" xml:space="preserve">
+    <value>Emergency button is manually pressed</value>
+  </data>
+  <data name="s16004_2052" xml:space="preserve">
+    <value>紧急停止已经按下</value>
+  </data>
+  <data name="s16005_1033" xml:space="preserve">
+    <value>Depression</value>
+  </data>
+  <data name="s16005_2052" xml:space="preserve">
+    <value>气压不足</value>
+  </data>
+  <data name="s16006_1033" xml:space="preserve">
+    <value>Are you sure to quit?</value>
+  </data>
+  <data name="s16006_2052" xml:space="preserve">
+    <value>您确定要退出系统吗？</value>
+  </data>
+  <data name="s16007_1033" xml:space="preserve">
+    <value>St&amp;art</value>
+  </data>
+  <data name="s16007_2052" xml:space="preserve">
+    <value>开始(&amp;A)</value>
+  </data>
+  <data name="s16008_1033" xml:space="preserve">
+    <value>Total time cost:</value>
+  </data>
+  <data name="s16008_2052" xml:space="preserve">
+    <value>处理时间：</value>
+  </data>
+  <data name="s16009_1033" xml:space="preserve">
+    <value>Do you need the voice wizard</value>
+  </data>
+  <data name="s16009_2052" xml:space="preserve">
+    <value>是否需要语音向导</value>
+  </data>
+  <data name="s16010_1033" xml:space="preserve">
+    <value>Welcome to video filter system</value>
+  </data>
+  <data name="s16010_2052" xml:space="preserve">
+    <value>欢迎使用影像检测系统语音向导</value>
+  </data>
+  <data name="s17001_1033" xml:space="preserve">
+    <value>Image1</value>
+  </data>
+  <data name="s17001_2052" xml:space="preserve">
+    <value>第一影像</value>
+  </data>
+  <data name="s17002_1033" xml:space="preserve">
+    <value>Image2</value>
+  </data>
+  <data name="s17002_2052" xml:space="preserve">
+    <value>第二影像</value>
+  </data>
+  <data name="s17003_1033" xml:space="preserve">
+    <value>Image3</value>
+  </data>
+  <data name="s17003_2052" xml:space="preserve">
+    <value>第三影像</value>
+  </data>
+  <data name="s17004_1033" xml:space="preserve">
+    <value>This operation is not recoverable, are you sure to delete</value>
+  </data>
+  <data name="s17004_2052" xml:space="preserve">
+    <value>该操作无法恢复，确定要删除该检测项目吗</value>
+  </data>
+  <data name="s17005_1033" xml:space="preserve">
+    <value>Failed to save screenshots, please check the disk availablity</value>
+  </data>
+  <data name="s17005_2052" xml:space="preserve">
+    <value>保存抓图失败，磁盘是否可写</value>
+  </data>
+  <data name="s17006_1033" xml:space="preserve">
+    <value>Succeeded, would you like to browse the screenshots now</value>
+  </data>
+  <data name="s17006_2052" xml:space="preserve">
+    <value>恭喜！抓图成功，现在要浏览吗</value>
+  </data>
+  <data name="s17007_1033" xml:space="preserve">
+    <value>No configurations for this item</value>
+  </data>
+  <data name="s17007_2052" xml:space="preserve">
+    <value>该检测项目无需设置</value>
+  </data>
+  <data name="s17008_1033" xml:space="preserve">
+    <value>Failed to open file</value>
+  </data>
+  <data name="s17008_2052" xml:space="preserve">
+    <value>打开文件失败</value>
+  </data>
+  <data name="s17009_1033" xml:space="preserve">
+    <value>Please select a filter</value>
+  </data>
+  <data name="s17009_2052" xml:space="preserve">
+    <value>请选择1个滤波器</value>
+  </data>
+  <data name="s17010_1033" xml:space="preserve">
+    <value>Calibration finished</value>
+  </data>
+  <data name="s17010_2052" xml:space="preserve">
+    <value>校正已完成</value>
+  </data>
+  <data name="s17011_1033" xml:space="preserve">
+    <value>Not calibrated yet</value>
+  </data>
+  <data name="s17011_2052" xml:space="preserve">
+    <value>未进行校正</value>
+  </data>
+  <data name="s17012_1033" xml:space="preserve">
+    <value>Save Succeed!</value>
+  </data>
+  <data name="s17012_2052" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="s17013_1033" xml:space="preserve">
+    <value>Calibration failed, Please check up the part</value>
+  </data>
+  <data name="s17013_2052" xml:space="preserve">
+    <value>校正失败，请检查校正零件</value>
+  </data>
+  <data name="s17014_1033" xml:space="preserve">
+    <value>Calibration failed</value>
+  </data>
+  <data name="s17014_2052" xml:space="preserve">
+    <value>校正失败</value>
+  </data>
+  <data name="s17015_1033" xml:space="preserve">
+    <value>This operation is not recoverable, are you sure to delete all</value>
+  </data>
+  <data name="s17015_2052" xml:space="preserve">
+    <value>该操作无法恢复，确定要清除全部检测项目吗</value>
+  </data>
+  <data name="s17016_1033" xml:space="preserve">
+    <value>Please specify the screenshot saving path:</value>
+  </data>
+  <data name="s17016_2052" xml:space="preserve">
+    <value>请选择抓图保存路径：</value>
+  </data>
+  <data name="s17017_1033" xml:space="preserve">
+    <value>Configuration file is not specified, default settings will be applied</value>
+  </data>
+  <data name="s17017_2052" xml:space="preserve">
+    <value>配置文件名未指定，将恢复原有配置</value>
+  </data>
+  <data name="s17018_1033" xml:space="preserve">
+    <value>Failed to read configurations</value>
+  </data>
+  <data name="s17018_2052" xml:space="preserve">
+    <value>读取配置文件失败</value>
+  </data>
+  <data name="s17019_1033" xml:space="preserve">
+    <value>When changing configurations, the software will be re-started, are you sure to apply</value>
+  </data>
+  <data name="s17019_2052" xml:space="preserve">
+    <value>更换配置必须重新运行系统后才能生效，确认要更改吗</value>
+  </data>
+  <data name="s17020_1033" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="s17020_2052" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="s17021_1033" xml:space="preserve">
+    <value>Read history</value>
+  </data>
+  <data name="s17021_2052" xml:space="preserve">
+    <value>读取历史设置</value>
+  </data>
+  <data name="s17022_1033" xml:space="preserve">
+    <value>Profile (*.cfg)|*.cfg|All files (*.*)|*.*</value>
+  </data>
+  <data name="s17022_2052" xml:space="preserve">
+    <value>配置文件 (*.cfg)|*.cfg|所有文件 (*.*)|*.*</value>
+  </data>
+  <data name="s17023_1033" xml:space="preserve">
+    <value>Open the image file</value>
+  </data>
+  <data name="s17023_2052" xml:space="preserve">
+    <value>打开图像文件</value>
+  </data>
+  <data name="s17024_1033" xml:space="preserve">
+    <value>Image file (*.bmp *.jpg *.png)|*.bmp;*.jpg;*.png|All files (*.*)|*.*</value>
+  </data>
+  <data name="s17024_2052" xml:space="preserve">
+    <value>图像文件 (*.bmp *.jpg *.png)|*.bmp;*.jpg;*.png|所有文件 (*.*)|*.*</value>
+  </data>
+  <data name="s17025_1033" xml:space="preserve">
+    <value>Image4</value>
+  </data>
+  <data name="s17025_2052" xml:space="preserve">
+    <value>第四影像</value>
+  </data>
+  <data name="s17026_1033" xml:space="preserve">
+    <value>Image5</value>
+  </data>
+  <data name="s17026_2052" xml:space="preserve">
+    <value>第五影像</value>
+  </data>
+  <data name="s17027_1033" xml:space="preserve">
+    <value>Image6</value>
+  </data>
+  <data name="s17027_2052" xml:space="preserve">
+    <value>第六影像</value>
+  </data>
+  <data name="s18001_1033" xml:space="preserve">
+    <value>Image1</value>
+  </data>
+  <data name="s18001_2052" xml:space="preserve">
+    <value>第一影像</value>
+  </data>
+  <data name="s18002_1033" xml:space="preserve">
+    <value>Image2</value>
+  </data>
+  <data name="s18002_2052" xml:space="preserve">
+    <value>第二影像</value>
+  </data>
+  <data name="s18003_1033" xml:space="preserve">
+    <value>Image3</value>
+  </data>
+  <data name="s18003_2052" xml:space="preserve">
+    <value>第三影像</value>
+  </data>
+  <data name="s18004_1033" xml:space="preserve">
+    <value>The system is running now, please stop it and try again</value>
+  </data>
+  <data name="s18004_2052" xml:space="preserve">
+    <value>系统目前正在运转，请停止后再尝试归零</value>
+  </data>
+  <data name="s18005_1033" xml:space="preserve">
+    <value>Are you sure to reset the statistics data</value>
+  </data>
+  <data name="s18005_2052" xml:space="preserve">
+    <value>您确认要将统计数据归零吗</value>
+  </data>
+  <data name="s18006_1033" xml:space="preserve">
+    <value>Note: The time of reset operation will be recorded and the data is not recoverable</value>
+  </data>
+  <data name="s18006_2052" xml:space="preserve">
+    <value>注：归零的时间将被记录，并且该操作无法恢复</value>
+  </data>
+  <data name="s18007_1033" xml:space="preserve">
+    <value>&lt;None&gt;</value>
+  </data>
+  <data name="s18007_2052" xml:space="preserve">
+    <value>&lt;无&gt;</value>
+  </data>
+  <data name="s18008_1033" xml:space="preserve">
+    <value>Click here to reset ( Last reset time:</value>
+  </data>
+  <data name="s18008_2052" xml:space="preserve">
+    <value>点击这里，确认归零（上次归零时间：</value>
+  </data>
+  <data name="s18009_1033" xml:space="preserve">
+    <value>Reset complete</value>
+  </data>
+  <data name="s18009_2052" xml:space="preserve">
+    <value>统计数据已归零</value>
+  </data>
+  <data name="s18010_1033" xml:space="preserve">
+    <value>Last reset time:</value>
+  </data>
+  <data name="s18010_2052" xml:space="preserve">
+    <value>最近一次归零时间：</value>
+  </data>
+  <data name="s18011_1033" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="s18011_2052" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="s18012_1033" xml:space="preserve">
+    <value>Cost time</value>
+  </data>
+  <data name="s18012_2052" xml:space="preserve">
+    <value>计算时间</value>
+  </data>
+  <data name="s18013_1033" xml:space="preserve">
+    <value>Are you sure to clear the statistics data</value>
+  </data>
+  <data name="s18013_2052" xml:space="preserve">
+    <value>您确认要清除测量数据吗</value>
+  </data>
+  <data name="s18014_1033" xml:space="preserve">
+    <value>This operation does not affect the statistics data</value>
+  </data>
+  <data name="s18014_2052" xml:space="preserve">
+    <value>该操作不会影响统计数据</value>
+  </data>
+  <data name="s18015_1033" xml:space="preserve">
+    <value>OverView</value>
+  </data>
+  <data name="s18015_2052" xml:space="preserve">
+    <value>总览影像</value>
+  </data>
+  <data name="s18016_1033" xml:space="preserve">
+    <value>Image4</value>
+  </data>
+  <data name="s18016_2052" xml:space="preserve">
+    <value>第四影像</value>
+  </data>
+  <data name="s18017_1033" xml:space="preserve">
+    <value>Image5</value>
+  </data>
+  <data name="s18017_2052" xml:space="preserve">
+    <value>第五影像</value>
+  </data>
+  <data name="s18018_1033" xml:space="preserve">
+    <value>Image6</value>
+  </data>
+  <data name="s18018_2052" xml:space="preserve">
+    <value>第六影像</value>
+  </data>
+  <data name="s19001_1033" xml:space="preserve">
+    <value>Register succeeded</value>
+  </data>
+  <data name="s19001_2052" xml:space="preserve">
+    <value>注册成功</value>
+  </data>
+  <data name="s19002_1033" xml:space="preserve">
+    <value>Register failed, please try again</value>
+  </data>
+  <data name="s19002_2052" xml:space="preserve">
+    <value>注册失败,请重新注册</value>
+  </data>
+  <data name="s20001_1033" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="s20001_2052" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="s20002_1033" xml:space="preserve">
+    <value>Error when calculating angle</value>
+  </data>
+  <data name="s20002_2052" xml:space="preserve">
+    <value>计算角度时出错</value>
+  </data>
+  <data name="s20003_1033" xml:space="preserve">
+    <value>Can not find the angle</value>
+  </data>
+  <data name="s20003_2052" xml:space="preserve">
+    <value>未找到角度</value>
+  </data>
+  <data name="s20004_1033" xml:space="preserve">
+    <value>Angle is substandard</value>
+  </data>
+  <data name="s20004_2052" xml:space="preserve">
+    <value>角度未达标</value>
+  </data>
+  <data name="s20005_1033" xml:space="preserve">
+    <value>Steepness is substandard</value>
+  </data>
+  <data name="s20005_2052" xml:space="preserve">
+    <value>尖锐度未达标</value>
+  </data>
+  <data name="s20006_1033" xml:space="preserve">
+    <value>Steepness</value>
+  </data>
+  <data name="s20006_2052" xml:space="preserve">
+    <value>尖锐度</value>
+  </data>
+  <data name="s21001_1033" xml:space="preserve">
+    <value>Finishing, please wait…</value>
+  </data>
+  <data name="s21001_2052" xml:space="preserve">
+    <value>即将完成，请稍候……</value>
+  </data>
+  <data name="s22001_1033" xml:space="preserve">
+    <value>Halt</value>
+  </data>
+  <data name="s22001_2052" xml:space="preserve">
+    <value>故障</value>
+  </data>
+  <data name="s22002_1033" xml:space="preserve">
+    <value>Halt On:</value>
+  </data>
+  <data name="s22002_2052" xml:space="preserve">
+    <value>故障时间：</value>
+  </data>
+  <data name="s23001_1033" xml:space="preserve">
+    <value>The Initialization of the PCI 1710 was failed! Please check the board</value>
+  </data>
+  <data name="s23001_2052" xml:space="preserve">
+    <value>PCI 1710 初始化失败！请检查板卡</value>
+  </data>
+  <data name="s24001_1033" xml:space="preserve">
+    <value>The Initialization of the IFC was failed! Please check the board</value>
+  </data>
+  <data name="s24001_2052" xml:space="preserve">
+    <value>IFC 初始化失败！请检查板卡</value>
+  </data>
+  <data name="s25001_1033" xml:space="preserve">
+    <value>Weld</value>
+  </data>
+  <data name="s25001_2052" xml:space="preserve">
+    <value>焊点</value>
+  </data>
+  <data name="s25002_1033" xml:space="preserve">
+    <value>Error when calculating weld</value>
+  </data>
+  <data name="s25002_2052" xml:space="preserve">
+    <value>计算焊点时出错</value>
+  </data>
+  <data name="s25003_1033" xml:space="preserve">
+    <value>Can not find the weld</value>
+  </data>
+  <data name="s25003_2052" xml:space="preserve">
+    <value>未找到焊点</value>
+  </data>
+  <data name="s25004_1033" xml:space="preserve">
+    <value>Welds count is substandard</value>
+  </data>
+  <data name="s25004_2052" xml:space="preserve">
+    <value>焊点个数未达标</value>
+  </data>
+  <data name="s25005_1033" xml:space="preserve">
+    <value>Welds count</value>
+  </data>
+  <data name="s25005_2052" xml:space="preserve">
+    <value>焊点个数</value>
+  </data>
+  <data name="s25006_1033" xml:space="preserve">
+    <value>The min area of welds is substandard</value>
+  </data>
+  <data name="s25006_2052" xml:space="preserve">
+    <value>最小焊点面积未达标</value>
+  </data>
+  <data name="s25007_1033" xml:space="preserve">
+    <value>The min area of welds</value>
+  </data>
+  <data name="s25007_2052" xml:space="preserve">
+    <value>最小焊点面积</value>
+  </data>
+  <data name="s25008_1033" xml:space="preserve">
+    <value>The max area of welds is substandard</value>
+  </data>
+  <data name="s25008_2052" xml:space="preserve">
+    <value>最大焊点面积未达标</value>
+  </data>
+  <data name="s25009_1033" xml:space="preserve">
+    <value>The max area of welds</value>
+  </data>
+  <data name="s25009_2052" xml:space="preserve">
+    <value>最大焊点面积</value>
+  </data>
+  <data name="s26001_1033" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="s26001_2052" xml:space="preserve">
+    <value>四边形</value>
+  </data>
+  <data name="s26002_1033" xml:space="preserve">
+    <value>Error when calculating Square</value>
+  </data>
+  <data name="s26002_2052" xml:space="preserve">
+    <value>计算四边形时出错</value>
+  </data>
+  <data name="s26003_1033" xml:space="preserve">
+    <value>The number of qualified particle:</value>
+  </data>
+  <data name="s26003_2052" xml:space="preserve">
+    <value>符合条件的图形个数：</value>
+  </data>
+  <data name="s26004_1033" xml:space="preserve">
+    <value>Max Oppo Angle is substandard</value>
+  </data>
+  <data name="s26004_2052" xml:space="preserve">
+    <value>最大对角未达标</value>
+  </data>
+  <data name="s26005_1033" xml:space="preserve">
+    <value>Max Oppo Angle</value>
+  </data>
+  <data name="s26005_2052" xml:space="preserve">
+    <value>最大对角</value>
+  </data>
+  <data name="s26006_1033" xml:space="preserve">
+    <value>Min Oppo Angle is substandard</value>
+  </data>
+  <data name="s26006_2052" xml:space="preserve">
+    <value>最小对角未达标</value>
+  </data>
+  <data name="s26007_1033" xml:space="preserve">
+    <value>Min Oppo Angle</value>
+  </data>
+  <data name="s26007_2052" xml:space="preserve">
+    <value>最小对角</value>
+  </data>
+  <data name="s26008_1033" xml:space="preserve">
+    <value>Max Oppo Flat is substandard</value>
+  </data>
+  <data name="s26008_2052" xml:space="preserve">
+    <value>最大对边未达标</value>
+  </data>
+  <data name="s26009_1033" xml:space="preserve">
+    <value>Max Oppo Flat</value>
+  </data>
+  <data name="s26009_2052" xml:space="preserve">
+    <value>最大对边</value>
+  </data>
+  <data name="s26010_1033" xml:space="preserve">
+    <value>Min Oppo Flat is substandard</value>
+  </data>
+  <data name="s26010_2052" xml:space="preserve">
+    <value>最小对边未达标</value>
+  </data>
+  <data name="s26011_1033" xml:space="preserve">
+    <value>Min Oppo Flat</value>
+  </data>
+  <data name="s26011_2052" xml:space="preserve">
+    <value>最小对边</value>
+  </data>
+  <data name="s26012_1033" xml:space="preserve">
+    <value>Concentricity is substandard</value>
+  </data>
+  <data name="s26012_2052" xml:space="preserve">
+    <value>同心度未达标</value>
+  </data>
+  <data name="s26013_1033" xml:space="preserve">
+    <value>Concentricity</value>
+  </data>
+  <data name="s26013_2052" xml:space="preserve">
+    <value>同心度</value>
+  </data>
+  <data name="s27001_1033" xml:space="preserve">
+    <value>ThreadDamage</value>
+  </data>
+  <data name="s27001_2052" xml:space="preserve">
+    <value>牙伤检测</value>
+  </data>
+  <data name="s27002_1033" xml:space="preserve">
+    <value>Error when calculating threaddameged</value>
+  </data>
+  <data name="s27002_2052" xml:space="preserve">
+    <value>计算牙伤时出错</value>
+  </data>
+  <data name="s27003_1033" xml:space="preserve">
+    <value>Can not find the thread</value>
+  </data>
+  <data name="s27003_2052" xml:space="preserve">
+    <value>未找到牙部</value>
+  </data>
+  <data name="s27004_1033" xml:space="preserve">
+    <value>ThreadDamage is substandard</value>
+  </data>
+  <data name="s27004_2052" xml:space="preserve">
+    <value>牙伤未达标</value>
+  </data>
+  <data name="s27005_1033" xml:space="preserve">
+    <value>ThreadDamage</value>
+  </data>
+  <data name="s27005_2052" xml:space="preserve">
+    <value>牙伤</value>
+  </data>
+  <data name="s28001_1033" xml:space="preserve">
+    <value>LackOfMaterial</value>
+  </data>
+  <data name="s28001_2052" xml:space="preserve">
+    <value>缺料</value>
+  </data>
+  <data name="s28002_1033" xml:space="preserve">
+    <value>Error when calculating starving</value>
+  </data>
+  <data name="s28002_2052" xml:space="preserve">
+    <value>计算缺料时出错</value>
+  </data>
+  <data name="s28003_1033" xml:space="preserve">
+    <value>The number of qualified particle:</value>
+  </data>
+  <data name="s28003_2052" xml:space="preserve">
+    <value>符合条件的图形个数：</value>
+  </data>
+  <data name="s28004_1033" xml:space="preserve">
+    <value>Max starving is substandard</value>
+  </data>
+  <data name="s28004_2052" xml:space="preserve">
+    <value>最大缺料度未达标</value>
+  </data>
+  <data name="s28005_1033" xml:space="preserve">
+    <value>Max starving</value>
+  </data>
+  <data name="s28005_2052" xml:space="preserve">
+    <value>最大缺料度</value>
+  </data>
+  <data name="s29001_1033" xml:space="preserve">
+    <value>ThreadCount</value>
+  </data>
+  <data name="s29001_2052" xml:space="preserve">
+    <value>牙数</value>
+  </data>
+  <data name="s29002_1033" xml:space="preserve">
+    <value>Error when calculating thread</value>
+  </data>
+  <data name="s29002_2052" xml:space="preserve">
+    <value>计算牙数时出错</value>
+  </data>
+  <data name="s29003_1033" xml:space="preserve">
+    <value>Can not find the thread</value>
+  </data>
+  <data name="s29003_2052" xml:space="preserve">
+    <value>未找到牙部</value>
+  </data>
+  <data name="s29004_1033" xml:space="preserve">
+    <value>Thread is substandard</value>
+  </data>
+  <data name="s29004_2052" xml:space="preserve">
+    <value>牙数未达标</value>
+  </data>
+  <data name="s29005_1033" xml:space="preserve">
+    <value>ThreadCount</value>
+  </data>
+  <data name="s29005_2052" xml:space="preserve">
+    <value>牙数</value>
+  </data>
+  <data name="s30001_1033" xml:space="preserve">
+    <value>Center Crack</value>
+  </data>
+  <data name="s30001_2052" xml:space="preserve">
+    <value>中心开裂</value>
+  </data>
+  <data name="s30002_1033" xml:space="preserve">
+    <value>Error when calculating center crack</value>
+  </data>
+  <data name="s30002_2052" xml:space="preserve">
+    <value>头裂计算出错</value>
+  </data>
+  <data name="s30003_1033" xml:space="preserve">
+    <value>Can not find the shape</value>
+  </data>
+  <data name="s30003_2052" xml:space="preserve">
+    <value>未找到头部</value>
+  </data>
+  <data name="s30004_1033" xml:space="preserve">
+    <value>Max center crack is substandard</value>
+  </data>
+  <data name="s30004_2052" xml:space="preserve">
+    <value>最大中心开裂度未达标</value>
+  </data>
+  <data name="s30005_1033" xml:space="preserve">
+    <value>Max center crack</value>
+  </data>
+  <data name="s30005_2052" xml:space="preserve">
+    <value>最大中心开裂度</value>
+  </data>
+  <data name="s40001_1033" xml:space="preserve">
+    <value>Diameter</value>
+  </data>
+  <data name="s40001_2052" xml:space="preserve">
+    <value>直径</value>
+  </data>
+  <data name="s40002_1033" xml:space="preserve">
+    <value>Error when calculating diameter</value>
+  </data>
+  <data name="s40002_2052" xml:space="preserve">
+    <value>计算直径时出错</value>
+  </data>
+  <data name="s40003_1033" xml:space="preserve">
+    <value>The number of qualified particle:</value>
+  </data>
+  <data name="s40003_2052" xml:space="preserve">
+    <value>符合条件的图形个数：</value>
+  </data>
+  <data name="s40004_1033" xml:space="preserve">
+    <value>Max diameter is substandard</value>
+  </data>
+  <data name="s40004_2052" xml:space="preserve">
+    <value>最大直径未达标</value>
+  </data>
+  <data name="s40005_1033" xml:space="preserve">
+    <value>Max diameter</value>
+  </data>
+  <data name="s40005_2052" xml:space="preserve">
+    <value>最大直径</value>
+  </data>
+  <data name="s40006_1033" xml:space="preserve">
+    <value>Min diameter is substandard</value>
+  </data>
+  <data name="s40006_2052" xml:space="preserve">
+    <value>最小直径未达标</value>
+  </data>
+  <data name="s40007_1033" xml:space="preserve">
+    <value>Min diameter</value>
+  </data>
+  <data name="s40007_2052" xml:space="preserve">
+    <value>最小直径</value>
+  </data>
+  <data name="s40008_1033" xml:space="preserve">
+    <value>Roundness is substandard</value>
+  </data>
+  <data name="s40008_2052" xml:space="preserve">
+    <value>真圆度未达标</value>
+  </data>
+  <data name="s40009_1033" xml:space="preserve">
+    <value>Roundness</value>
+  </data>
+  <data name="s40009_2052" xml:space="preserve">
+    <value>真圆度</value>
+  </data>
+  <data name="s40010_1033" xml:space="preserve">
+    <value>Concentricity is substandard</value>
+  </data>
+  <data name="s40010_2052" xml:space="preserve">
+    <value>同心度未达标</value>
+  </data>
+  <data name="s40011_1033" xml:space="preserve">
+    <value>Can not find concentricity</value>
+  </data>
+  <data name="s40011_2052" xml:space="preserve">
+    <value>同心度</value>
+  </data>
+  <data name="s50001_1033" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="s50001_2052" xml:space="preserve">
+    <value>夹距量测</value>
+  </data>
+  <data name="s50002_1033" xml:space="preserve">
+    <value>Error when calculating distance</value>
+  </data>
+  <data name="s50002_2052" xml:space="preserve">
+    <value>计算距离时出错</value>
+  </data>
+  <data name="s50003_1033" xml:space="preserve">
+    <value>Can not find the distance</value>
+  </data>
+  <data name="s50003_2052" xml:space="preserve">
+    <value>未找到距离</value>
+  </data>
+  <data name="s50004_1033" xml:space="preserve">
+    <value>Distance is substandard</value>
+  </data>
+  <data name="s50004_2052" xml:space="preserve">
+    <value>距离未达标</value>
+  </data>
+  <data name="s50005_1033" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="s50005_2052" xml:space="preserve">
+    <value>距离</value>
+  </data>
+  <data name="s60001_1033" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="s60001_2052" xml:space="preserve">
+    <value>头厚测量</value>
+  </data>
+  <data name="s60002_1033" xml:space="preserve">
+    <value>Error when calculating head</value>
+  </data>
+  <data name="s60002_2052" xml:space="preserve">
+    <value>计算头厚时出错</value>
+  </data>
+  <data name="s60003_1033" xml:space="preserve">
+    <value>Can not find the head</value>
+  </data>
+  <data name="s60003_2052" xml:space="preserve">
+    <value>未找到头部</value>
+  </data>
+  <data name="s60004_1033" xml:space="preserve">
+    <value>Error when calculating diameter</value>
+  </data>
+  <data name="s60004_2052" xml:space="preserve">
+    <value>计算直径时出错</value>
+  </data>
+  <data name="s60005_1033" xml:space="preserve">
+    <value>Can not find the diameter</value>
+  </data>
+  <data name="s60005_2052" xml:space="preserve">
+    <value>未找到直径</value>
+  </data>
+  <data name="s60006_1033" xml:space="preserve">
+    <value>Diameter is substandard</value>
+  </data>
+  <data name="s60006_2052" xml:space="preserve">
+    <value>直径未达标</value>
+  </data>
+  <data name="s60007_1033" xml:space="preserve">
+    <value>Diameter</value>
+  </data>
+  <data name="s60007_2052" xml:space="preserve">
+    <value>直径</value>
+  </data>
+  <data name="s60008_1033" xml:space="preserve">
+    <value>Error when calculating depth</value>
+  </data>
+  <data name="s60008_2052" xml:space="preserve">
+    <value>计算厚度时出错</value>
+  </data>
+  <data name="s60009_1033" xml:space="preserve">
+    <value>Can not find the depth</value>
+  </data>
+  <data name="s60009_2052" xml:space="preserve">
+    <value>未找到厚度</value>
+  </data>
+  <data name="s60010_1033" xml:space="preserve">
+    <value>Depth is substandard</value>
+  </data>
+  <data name="s60010_2052" xml:space="preserve">
+    <value>厚度未达标</value>
+  </data>
+  <data name="s60011_1033" xml:space="preserve">
+    <value>Depth</value>
+  </data>
+  <data name="s60011_2052" xml:space="preserve">
+    <value>厚度</value>
+  </data>
+  <data name="s70001_1033" xml:space="preserve">
+    <value>Hexagon</value>
+  </data>
+  <data name="s70001_2052" xml:space="preserve">
+    <value>六边形</value>
+  </data>
+  <data name="s70002_1033" xml:space="preserve">
+    <value>Error when calculating hexagon</value>
+  </data>
+  <data name="s70002_2052" xml:space="preserve">
+    <value>计算六边形时出错</value>
+  </data>
+  <data name="s70003_1033" xml:space="preserve">
+    <value>The number of qualified particle:</value>
+  </data>
+  <data name="s70003_2052" xml:space="preserve">
+    <value>符合条件的图形个数：</value>
+  </data>
+  <data name="s70004_1033" xml:space="preserve">
+    <value>Max Oppo Angle is substandard</value>
+  </data>
+  <data name="s70004_2052" xml:space="preserve">
+    <value>最大对角未达标</value>
+  </data>
+  <data name="s70005_1033" xml:space="preserve">
+    <value>Max Oppo Angle</value>
+  </data>
+  <data name="s70005_2052" xml:space="preserve">
+    <value>最大对角</value>
+  </data>
+  <data name="s70006_1033" xml:space="preserve">
+    <value>Min Oppo Angle is substandard</value>
+  </data>
+  <data name="s70006_2052" xml:space="preserve">
+    <value>最小对角未达标</value>
+  </data>
+  <data name="s70007_1033" xml:space="preserve">
+    <value>Min Oppo Angle</value>
+  </data>
+  <data name="s70007_2052" xml:space="preserve">
+    <value>最小对角</value>
+  </data>
+  <data name="s70008_1033" xml:space="preserve">
+    <value>Max Oppo Flat is substandard</value>
+  </data>
+  <data name="s70008_2052" xml:space="preserve">
+    <value>最大对边未达标</value>
+  </data>
+  <data name="s70009_1033" xml:space="preserve">
+    <value>Max Oppo Flat</value>
+  </data>
+  <data name="s70009_2052" xml:space="preserve">
+    <value>最大对边</value>
+  </data>
+  <data name="s70010_1033" xml:space="preserve">
+    <value>Min Oppo Flat is substandard</value>
+  </data>
+  <data name="s70010_2052" xml:space="preserve">
+    <value>最小对边未达标</value>
+  </data>
+  <data name="s70011_1033" xml:space="preserve">
+    <value>Min Oppo Flat</value>
+  </data>
+  <data name="s70011_2052" xml:space="preserve">
+    <value>最小对边</value>
+  </data>
+  <data name="s70012_1033" xml:space="preserve">
+    <value>Concentricity is substandard</value>
+  </data>
+  <data name="s70012_2052" xml:space="preserve">
+    <value>同心度未达标</value>
+  </data>
+  <data name="s70013_1033" xml:space="preserve">
+    <value>Concentricity</value>
+  </data>
+  <data name="s70013_2052" xml:space="preserve">
+    <value>同心度</value>
+  </data>
+  <data name="s80001_1033" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="s80001_2052" xml:space="preserve">
+    <value>牙部测量</value>
+  </data>
+  <data name="s80002_1033" xml:space="preserve">
+    <value> Lenth</value>
+  </data>
+  <data name="s80002_2052" xml:space="preserve">
+    <value> 长度</value>
+  </data>
+  <data name="s80003_1033" xml:space="preserve">
+    <value> Thread</value>
+  </data>
+  <data name="s80003_2052" xml:space="preserve">
+    <value> 牙位</value>
+  </data>
+  <data name="s80004_1033" xml:space="preserve">
+    <value>Error when calculating thread</value>
+  </data>
+  <data name="s80004_2052" xml:space="preserve">
+    <value>计算牙部时出错</value>
+  </data>
+  <data name="s80005_1033" xml:space="preserve">
+    <value>Can not find the thread</value>
+  </data>
+  <data name="s80005_2052" xml:space="preserve">
+    <value>未找到牙部</value>
+  </data>
+  <data name="s80006_1033" xml:space="preserve">
+    <value>Max major diameter</value>
+  </data>
+  <data name="s80006_2052" xml:space="preserve">
+    <value>最大外径</value>
+  </data>
+  <data name="s80007_1033" xml:space="preserve">
+    <value>Max major diameter is substandard</value>
+  </data>
+  <data name="s80007_2052" xml:space="preserve">
+    <value>最大外径未达标</value>
+  </data>
+  <data name="s80008_1033" xml:space="preserve">
+    <value>Min major diameter</value>
+  </data>
+  <data name="s80008_2052" xml:space="preserve">
+    <value>最小外径</value>
+  </data>
+  <data name="s80009_1033" xml:space="preserve">
+    <value>Min major diameter is substandard</value>
+  </data>
+  <data name="s80009_2052" xml:space="preserve">
+    <value>最小外径未达标</value>
+  </data>
+  <data name="s80010_1033" xml:space="preserve">
+    <value>Pitch diameter</value>
+  </data>
+  <data name="s80010_2052" xml:space="preserve">
+    <value>中径</value>
+  </data>
+  <data name="s80011_1033" xml:space="preserve">
+    <value>Pitch diameter is substandard</value>
+  </data>
+  <data name="s80011_2052" xml:space="preserve">
+    <value>中径未达标</value>
+  </data>
+  <data name="s80012_1033" xml:space="preserve">
+    <value>Root diameter</value>
+  </data>
+  <data name="s80012_2052" xml:space="preserve">
+    <value>底径</value>
+  </data>
+  <data name="s80013_1033" xml:space="preserve">
+    <value>Root diameter is substandard</value>
+  </data>
+  <data name="s80013_2052" xml:space="preserve">
+    <value>底径未达标</value>
+  </data>
+  <data name="s80014_1033" xml:space="preserve">
+    <value>Pitch</value>
+  </data>
+  <data name="s80014_2052" xml:space="preserve">
+    <value>牙距</value>
+  </data>
+  <data name="s80015_1033" xml:space="preserve">
+    <value>Pitch is substandard</value>
+  </data>
+  <data name="s80015_2052" xml:space="preserve">
+    <value>牙距未达标</value>
+  </data>
+  <data name="s80016_1033" xml:space="preserve">
+    <value>Lenth</value>
+  </data>
+  <data name="s80016_2052" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="s80017_1033" xml:space="preserve">
+    <value>Lenth is substandard</value>
+  </data>
+  <data name="s80017_2052" xml:space="preserve">
+    <value>长度未达标</value>
+  </data>
+  <data name="s80018_1033" xml:space="preserve">
+    <value>Max thread slope</value>
+  </data>
+  <data name="s80018_2052" xml:space="preserve">
+    <value>最大斜牙度</value>
+  </data>
+  <data name="s80019_1033" xml:space="preserve">
+    <value>Max thread slope is substandard</value>
+  </data>
+  <data name="s80019_2052" xml:space="preserve">
+    <value>最大斜牙度未达标</value>
+  </data>
+  <data name="s80020_1033" xml:space="preserve">
+    <value>Min thread slope</value>
+  </data>
+  <data name="s80020_2052" xml:space="preserve">
+    <value>最小斜牙度</value>
+  </data>
+  <data name="s80021_1033" xml:space="preserve">
+    <value>Min thread slope is substandard</value>
+  </data>
+  <data name="s80021_2052" xml:space="preserve">
+    <value>最小斜牙度未达标</value>
+  </data>
+  <data name="s80022_1033" xml:space="preserve">
+    <value>Helix angle</value>
+  </data>
+  <data name="s80022_2052" xml:space="preserve">
+    <value>螺旋角度</value>
+  </data>
+  <data name="s80023_1033" xml:space="preserve">
+    <value>Helix angle is substandard</value>
+  </data>
+  <data name="s80023_2052" xml:space="preserve">
+    <value>螺旋角未达标</value>
+  </data>
+  <data name="s80024_1033" xml:space="preserve">
+    <value>Threads count</value>
+  </data>
+  <data name="s80024_2052" xml:space="preserve">
+    <value>牙数</value>
+  </data>
+  <data name="s80025_1033" xml:space="preserve">
+    <value>Threads count is substandard</value>
+  </data>
+  <data name="s80025_2052" xml:space="preserve">
+    <value>牙数未达标</value>
+  </data>
+  <data name="s80026_1033" xml:space="preserve">
+    <value>Ratio</value>
+  </data>
+  <data name="s80026_2052" xml:space="preserve">
+    <value>尖锐度</value>
+  </data>
+  <data name="s80027_1033" xml:space="preserve">
+    <value>Ratio is substandard</value>
+  </data>
+  <data name="s80027_2052" xml:space="preserve">
+    <value>尖锐度未达标</value>
+  </data>
+  <data name="s80028_1033" xml:space="preserve">
+    <value>Cylinder</value>
+  </data>
+  <data name="s80028_2052" xml:space="preserve">
+    <value>上光杆</value>
+  </data>
+  <data name="s90001_1033" xml:space="preserve">
+    <value>&lt;No Name&gt;</value>
+  </data>
+  <data name="s90001_2052" xml:space="preserve">
+    <value>&lt;无名称&gt;</value>
+  </data>
+  <data name="s90002_1033" xml:space="preserve">
+    <value>Flow Number</value>
+  </data>
+  <data name="s90002_2052" xml:space="preserve">
+    <value>流水号</value>
+  </data>
+  <data name="s90003_1033" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="s90003_2052" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="s90004_1033" xml:space="preserve">
+    <value>This channel is disabled</value>
+  </data>
+  <data name="s90004_2052" xml:space="preserve">
+    <value>该路影像未启用</value>
+  </data>
+  <data name="s90005_1033" xml:space="preserve">
+    <value>Time,</value>
+  </data>
+  <data name="s90005_2052" xml:space="preserve">
+    <value>时间,</value>
+  </data>
+  <data name="s90006_1033" xml:space="preserve">
+    <value>Measuring tool,</value>
+  </data>
+  <data name="s90006_2052" xml:space="preserve">
+    <value>检测项目,</value>
+  </data>
+  <data name="s90007_1033" xml:space="preserve">
+    <value>Image,</value>
+  </data>
+  <data name="s90007_2052" xml:space="preserve">
+    <value>影像,</value>
+  </data>
+  <data name="s90008_1033" xml:space="preserve">
+    <value>SubItems,</value>
+  </data>
+  <data name="s90008_2052" xml:space="preserve">
+    <value>子项目,</value>
+  </data>
+  <data name="s90009_1033" xml:space="preserve">
+    <value>Success,</value>
+  </data>
+  <data name="s90009_2052" xml:space="preserve">
+    <value>是否成功,</value>
+  </data>
+  <data name="s90010_1033" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="s90010_2052" xml:space="preserve">
+    <value>计算结果</value>
+  </data>
+  <data name="s90011_1033" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="s90011_2052" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="s90012_1033" xml:space="preserve">
+    <value>Test results</value>
+  </data>
+  <data name="s90012_2052" xml:space="preserve">
+    <value>检 测 结 果</value>
+  </data>
+  <data name="s90013_1033" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="s90013_2052" xml:space="preserve">
+    <value>检测总数</value>
+  </data>
+  <data name="s90014_1033" xml:space="preserve">
+    <value>Good Count</value>
+  </data>
+  <data name="s90014_2052" xml:space="preserve">
+    <value>良品总数</value>
+  </data>
+  <data name="s90015_1033" xml:space="preserve">
+    <value>Total bad</value>
+  </data>
+  <data name="s90015_2052" xml:space="preserve">
+    <value>不良品总数</value>
+  </data>
+  <data name="s90016_1033" xml:space="preserve">
+    <value>Image1 bad</value>
+  </data>
+  <data name="s90016_2052" xml:space="preserve">
+    <value>第一影像不良品总数</value>
+  </data>
+  <data name="s90017_1033" xml:space="preserve">
+    <value>Image2 bad</value>
+  </data>
+  <data name="s90017_2052" xml:space="preserve">
+    <value>第二影像不良品总数</value>
+  </data>
+  <data name="s90018_1033" xml:space="preserve">
+    <value>Image3 bad</value>
+  </data>
+  <data name="s90018_2052" xml:space="preserve">
+    <value>第三影像不良品总数</value>
+  </data>
+  <data name="s90019_1033" xml:space="preserve">
+    <value>Batch:</value>
+  </data>
+  <data name="s90019_2052" xml:space="preserve">
+    <value>批次：</value>
+  </data>
+  <data name="s90020_1033" xml:space="preserve">
+    <value>HeatNum:</value>
+  </data>
+  <data name="s90020_2052" xml:space="preserve">
+    <value>炉号：</value>
+  </data>
+  <data name="s90021_1033" xml:space="preserve">
+    <value>Orders:</value>
+  </data>
+  <data name="s90021_2052" xml:space="preserve">
+    <value>订货单：</value>
+  </data>
+  <data name="s90022_1033" xml:space="preserve">
+    <value>Material:</value>
+  </data>
+  <data name="s90022_2052" xml:space="preserve">
+    <value>材质：</value>
+  </data>
+  <data name="s90023_1033" xml:space="preserve">
+    <value>Operator:</value>
+  </data>
+  <data name="s90023_2052" xml:space="preserve">
+    <value>操作员：</value>
+  </data>
+  <data name="s90024_1033" xml:space="preserve">
+    <value>TestData:</value>
+  </data>
+  <data name="s90024_2052" xml:space="preserve">
+    <value>时间：</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="artful_nuts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\artful_nuts.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gear_still1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gear_still1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gear_still2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gear_still2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gear_still3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gear_still3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gear_still4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gear_still4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horz_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horz_in.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horz_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horz_out.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vert_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vert_in.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vert_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vert_out.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s16011_1033" xml:space="preserve">
+    <value>OnWizard</value>
+  </data>
+  <data name="s16011_2052" xml:space="preserve">
+    <value>启用向导</value>
+  </data>
+  <data name="s16012_1033" xml:space="preserve">
+    <value>OffWizard</value>
+  </data>
+  <data name="s16012_2052" xml:space="preserve">
+    <value>关闭向导</value>
+  </data>
+  <data name="s16013_1033" xml:space="preserve">
+    <value>Too many triggers</value>
+  </data>
+  <data name="s16013_2052" xml:space="preserve">
+    <value>影像触发过于频繁</value>
+  </data>
+  <data name="r20001_1033" xml:space="preserve">
+    <value>Select the search direction</value>
+  </data>
+  <data name="r20001_2052" xml:space="preserve">
+    <value>请选择搜索方向</value>
+  </data>
+  <data name="r20002_1033" xml:space="preserve">
+    <value>Adjust the region of the detection area</value>
+  </data>
+  <data name="r20002_2052" xml:space="preserve">
+    <value>请调整所需检测区域的范围</value>
+  </data>
+  <data name="r20003_1033" xml:space="preserve">
+    <value>Should it be rotation sensitive</value>
+  </data>
+  <data name="r20003_2052" xml:space="preserve">
+    <value>请选择是否需要倾斜敏感</value>
+  </data>
+  <data name="r20004_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r20004_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r20005_1033" xml:space="preserve">
+    <value>Enter the calibration value</value>
+  </data>
+  <data name="r20005_2052" xml:space="preserve">
+    <value>请输入校正值进行校正</value>
+  </data>
+  <data name="r20006_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r20006_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r21001_1033" xml:space="preserve">
+    <value>Calculating</value>
+  </data>
+  <data name="r21001_2052" xml:space="preserve">
+    <value>实时计算中</value>
+  </data>
+  <data name="r22001_1033" xml:space="preserve">
+    <value>Enter the configuration settings</value>
+  </data>
+  <data name="r22001_2052" xml:space="preserve">
+    <value>进入参数设置</value>
+  </data>
+  <data name="r23001_1033" xml:space="preserve">
+    <value>Make sure the product information is ready</value>
+  </data>
+  <data name="r23001_2052" xml:space="preserve">
+    <value>请确定产品信息是否填写完成</value>
+  </data>
+  <data name="r23002_1033" xml:space="preserve">
+    <value>Now each minute</value>
+  </data>
+  <data name="r23002_2052" xml:space="preserve">
+    <value>现在每分钟</value>
+  </data>
+  <data name="r23003_1033" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="r23003_2052" xml:space="preserve">
+    <value>支</value>
+  </data>
+  <data name="r23004_1033" xml:space="preserve">
+    <value>Are you sure to continue</value>
+  </data>
+  <data name="r23004_2052" xml:space="preserve">
+    <value>请确定是否继续</value>
+  </data>
+  <data name="r24001_1033" xml:space="preserve">
+    <value>Are you sure to reset the statistics</value>
+  </data>
+  <data name="r24001_2052" xml:space="preserve">
+    <value>您确认要将统计数据归零</value>
+  </data>
+  <data name="r24002_1033" xml:space="preserve">
+    <value>Reset operation will be recorded and the operation can not be undone</value>
+  </data>
+  <data name="r24002_2052" xml:space="preserve">
+    <value>归零的时间将被记录并且该操作无法恢复</value>
+  </data>
+  <data name="r24003_1033" xml:space="preserve">
+    <value>The statistics is reset</value>
+  </data>
+  <data name="r24003_2052" xml:space="preserve">
+    <value>统计数据已归零</value>
+  </data>
+  <data name="r24004_1033" xml:space="preserve">
+    <value>The last zero time</value>
+  </data>
+  <data name="r24004_2052" xml:space="preserve">
+    <value>最后一次归零时间</value>
+  </data>
+  <data name="r25001_1033" xml:space="preserve">
+    <value>The statistics has been saved</value>
+  </data>
+  <data name="r25001_2052" xml:space="preserve">
+    <value>统计数据已保存</value>
+  </data>
+  <data name="r26001_1033" xml:space="preserve">
+    <value>Batch information has been saved</value>
+  </data>
+  <data name="r26001_2052" xml:space="preserve">
+    <value>批次信息已保存</value>
+  </data>
+  <data name="r30001_1033" xml:space="preserve">
+    <value>Select the hole color(black or white)</value>
+  </data>
+  <data name="r30001_2052" xml:space="preserve">
+    <value>请选择孔径颜色</value>
+  </data>
+  <data name="r30002_1033" xml:space="preserve">
+    <value>Adjust the region of detection area so that the part can be covered</value>
+  </data>
+  <data name="r30002_2052" xml:space="preserve">
+    <value>请调整检测区域的大小使内外圆围住所需检测区域</value>
+  </data>
+  <data name="r30003_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r30003_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r30004_1033" xml:space="preserve">
+    <value>Enter the calibration value</value>
+  </data>
+  <data name="r30004_2052" xml:space="preserve">
+    <value>请输入校正值进行校正</value>
+  </data>
+  <data name="r30005_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r30005_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r27001_1033" xml:space="preserve">
+    <value>Make sure the change is ready</value>
+  </data>
+  <data name="r27001_2052" xml:space="preserve">
+    <value>请确定是否调整完成</value>
+  </data>
+  <data name="r40001_1033" xml:space="preserve">
+    <value>Select the search direction</value>
+  </data>
+  <data name="r40001_2052" xml:space="preserve">
+    <value>请选择搜索方向</value>
+  </data>
+  <data name="r40002_1033" xml:space="preserve">
+    <value>Adjust the region of the detection area</value>
+  </data>
+  <data name="r40002_2052" xml:space="preserve">
+    <value>请调整所需检测区域的范围</value>
+  </data>
+  <data name="r40003_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r40003_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r40004_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r40004_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r50001_1033" xml:space="preserve">
+    <value>Adjust the length area so that all the bolt can be covered</value>
+  </data>
+  <data name="r50001_2052" xml:space="preserve">
+    <value>请调整长度区域，应包含整个牙部</value>
+  </data>
+  <data name="r50002_1033" xml:space="preserve">
+    <value>Adjust the thread area so that it covers only the regular threads</value>
+  </data>
+  <data name="r50002_2052" xml:space="preserve">
+    <value>请调整牙位区域，不应超过有效牙部分</value>
+  </data>
+  <data name="r50003_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r50003_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r50004_1033" xml:space="preserve">
+    <value>Enter the calibration value</value>
+  </data>
+  <data name="r50004_2052" xml:space="preserve">
+    <value>请输入校正值进行校正</value>
+  </data>
+  <data name="r50005_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r50005_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="s16014_2052" xml:space="preserve">
+    <value>卡料停止！</value>
+  </data>
+  <data name="s16014_1033" xml:space="preserve">
+    <value>Machine stucked!</value>
+  </data>
+  <data name="r60001_1033" xml:space="preserve">
+    <value>Adjust the area so that the annulus covers the part</value>
+  </data>
+  <data name="r60001_2052" xml:space="preserve">
+    <value>请调整检测区域的大小，使外圆小于外孔径，内圆大于内孔径</value>
+  </data>
+  <data name="r60002_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r60002_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r60003_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r60003_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r70001_1033" xml:space="preserve">
+    <value>Select the color of hexagon(black or white)</value>
+  </data>
+  <data name="r70001_2052" xml:space="preserve">
+    <value>请选择六边形的颜色</value>
+  </data>
+  <data name="r70002_1033" xml:space="preserve">
+    <value>Adjust the region of detection area so that the part can be covered</value>
+  </data>
+  <data name="r70002_2052" xml:space="preserve">
+    <value>请调整检测区域的大小使内外圆围住所需检测区域</value>
+  </data>
+  <data name="r70003_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r70003_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r70004_1033" xml:space="preserve">
+    <value>Enter the calibration value</value>
+  </data>
+  <data name="r70004_2052" xml:space="preserve">
+    <value>请输入校正值进行校正</value>
+  </data>
+  <data name="r70005_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r70005_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r80001_1033" xml:space="preserve">
+    <value>Adjust the binarization to get the maximal contrast between the part and the plate</value>
+  </data>
+  <data name="r80001_2052" xml:space="preserve">
+    <value>请将二值化数值调整到盘面与工件黑白分明</value>
+  </data>
+  <data name="r80002_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r80002_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r90001_1033" xml:space="preserve">
+    <value>Adjust the length area so that all the part can be covered</value>
+  </data>
+  <data name="r90001_2052" xml:space="preserve">
+    <value>请调整长度区域，应包含整个零件</value>
+  </data>
+  <data name="r90002_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r90002_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r90003_1033" xml:space="preserve">
+    <value>Enter the calibration value</value>
+  </data>
+  <data name="r90003_2052" xml:space="preserve">
+    <value>请输入校正值进行校正</value>
+  </data>
+  <data name="r90004_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r90004_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s91001_1033" xml:space="preserve">
+    <value>Make sure modify the filename</value>
+  </data>
+  <data name="s91001_2052" xml:space="preserve">
+    <value>确定修改文件名</value>
+  </data>
+  <data name="s91002_1033" xml:space="preserve">
+    <value>Picture filename</value>
+  </data>
+  <data name="s91002_2052" xml:space="preserve">
+    <value>图片文件名</value>
+  </data>
+  <data name="s91003_1033" xml:space="preserve">
+    <value>Make sure</value>
+  </data>
+  <data name="s91003_2052" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="s91004_1033" xml:space="preserve">
+    <value>Succeed</value>
+  </data>
+  <data name="s91004_2052" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="s91005_1033" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="s91005_2052" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="s91006_1033" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="s91006_2052" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="s91007_1033" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="s91007_2052" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="s91008_1033" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="s91008_2052" xml:space="preserve">
+    <value>校正</value>
+  </data>
+  <data name="s91009_1033" xml:space="preserve">
+    <value>Are you sure you to restore initialization settings</value>
+  </data>
+  <data name="s91009_2052" xml:space="preserve">
+    <value>您确定要恢复初始化设置吗</value>
+  </data>
+  <data name="s91010_1033" xml:space="preserve">
+    <value>Program is already running, please close and try again</value>
+  </data>
+  <data name="s91010_2052" xml:space="preserve">
+    <value>程序已经运行，请关闭后重试</value>
+  </data>
+  <data name="s91011_1033" xml:space="preserve">
+    <value>Did not find the system default language! There might not sound or voice disorder</value>
+  </data>
+  <data name="s91011_2052" xml:space="preserve">
+    <value>没有找到本系统默认的语言！有可能导致不能发音或发音异常</value>
+  </data>
+  <data name="r29001_1033" xml:space="preserve">
+    <value>Make sure the change is ready</value>
+  </data>
+  <data name="r29001_2052" xml:space="preserve">
+    <value>请确定是否调整完成</value>
+  </data>
+  <data name="r91001_1033" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="r91001_2052" xml:space="preserve">
+    <value>开始检测</value>
+  </data>
+  <data name="r92001_1033" xml:space="preserve">
+    <value>The statistics is reset</value>
+  </data>
+  <data name="r92001_2052" xml:space="preserve">
+    <value>统计数据已归零</value>
+  </data>
+  <data name="r93001_1033" xml:space="preserve">
+    <value>Adjusting complete</value>
+  </data>
+  <data name="r93001_2052" xml:space="preserve">
+    <value>调整已完成</value>
+  </data>
+  <data name="r10001_1033" xml:space="preserve">
+    <value>Check the vibratting plate and the feeding slide rail</value>
+  </data>
+  <data name="r10001_2052" xml:space="preserve">
+    <value>请调整好振动盘及送料滑轨</value>
+  </data>
+  <data name="r10002_1033" xml:space="preserve">
+    <value>Make sure the part is consistent with deliver</value>
+  </data>
+  <data name="r10002_2052" xml:space="preserve">
+    <value>请确认被检工件与输送夹距是否相符</value>
+  </data>
+  <data name="r10003_1033" xml:space="preserve">
+    <value>Make sure the trigger fiber is ready</value>
+  </data>
+  <data name="r10003_2052" xml:space="preserve">
+    <value>请确认触发光纤是否调整好</value>
+  </data>
+  <data name="r10004_1033" xml:space="preserve">
+    <value>Make sure the blow ports for bad parts are ready</value>
+  </data>
+  <data name="r10004_2052" xml:space="preserve">
+    <value>请确认不良品吹气嘴是否调整好</value>
+  </data>
+  <data name="r10005_1033" xml:space="preserve">
+    <value>Make sure the striker plates for good parts are ready</value>
+  </data>
+  <data name="r10005_2052" xml:space="preserve">
+    <value>请确认良品档料板是否调整好</value>
+  </data>
+  <data name="r10006_1033" xml:space="preserve">
+    <value>Make sure the image of each view is clear</value>
+  </data>
+  <data name="r10006_2052" xml:space="preserve">
+    <value>请确认各站点图像是否清晰</value>
+  </data>
+  <data name="r10007_1033" xml:space="preserve">
+    <value>The hardware is ready, and now going to preferences</value>
+  </data>
+  <data name="r10007_2052" xml:space="preserve">
+    <value>硬件设置完成请进入参数设置</value>
+  </data>
+  <data name="r10008_1033" xml:space="preserve">
+    <value>Make sure the site positions and the blow positions are correct</value>
+  </data>
+  <data name="r10008_2052" xml:space="preserve">
+    <value>请再次确认站点位置及吹气位置是否正确</value>
+  </data>
+  <data name="r10009_1033" xml:space="preserve">
+    <value>Add the diagonostic tools</value>
+  </data>
+  <data name="r10009_2052" xml:space="preserve">
+    <value>请添加所需检测功能</value>
+  </data>
+  <data name="s40012_1033" xml:space="preserve">
+    <value>Side crack is substandard</value>
+  </data>
+  <data name="s40012_2052" xml:space="preserve">
+    <value>边缘开裂未达标</value>
+  </data>
+  <data name="s40013_1033" xml:space="preserve">
+    <value>Side crack</value>
+  </data>
+  <data name="s40013_2052" xml:space="preserve">
+    <value>边缘开裂</value>
+  </data>
+  <data name="Info64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chinese_2052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chinese.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chinese_1033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chinese_enable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="English_1033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\English.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="English_2052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\English_enable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shadow_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shadow_block.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shadow_info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shadow_info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shadow_ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shadow_ok.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shadow_process" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shadow_process.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shadow_warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shadow_warning.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s91012_1033" xml:space="preserve">
+    <value>plate capacity of less than 1G or memory lack! Please clean up the hard disk or turn off useless programs</value>
+  </data>
+  <data name="s91012_2052" xml:space="preserve">
+    <value>盘容量不足1G或系统内存不足！请及时清理硬盘，及时关闭无用程序</value>
+  </data>
+  <data name="s91013_1033" xml:space="preserve">
+    <value>System memory occupancy rate of over 90%, please turn off useless programs, otherwise the system will crash</value>
+  </data>
+  <data name="s91013_2052" xml:space="preserve">
+    <value>系统内存占用率超过90%，请及时关闭无用程序，否则系统将崩溃</value>
+  </data>
+  <data name="s91014_1033" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="s91014_2052" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="s91015_1033" xml:space="preserve">
+    <value>Prompt</value>
+  </data>
+  <data name="s91015_2052" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="zoom_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zoom_in.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zoom_out.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s91016_1033" xml:space="preserve">
+    <value>Modify the settings</value>
+  </data>
+  <data name="s91016_2052" xml:space="preserve">
+    <value>修改设置</value>
+  </data>
+  <data name="s16015_1033" xml:space="preserve">
+    <value>Blow Locked!</value>
+  </data>
+  <data name="s16015_2052" xml:space="preserve">
+    <value>吹气堵料！</value>
+  </data>
+  <data name="s16016_1033" xml:space="preserve">
+    <value>Consecutive bad parts!</value>
+  </data>
+  <data name="s16016_2052" xml:space="preserve">
+    <value>连续不良品超量！</value>
+  </data>
+  <data name="s91017_1033" xml:space="preserve">
+    <value>Make sure the name of the default settings and the filter does not change</value>
+  </data>
+  <data name="s91017_2052" xml:space="preserve">
+    <value>确认默认设置及各滤波器的名称中英文是否一致</value>
+  </data>
+  <data name="s91018_1033" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="s91018_2052" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="s91019_1033" xml:space="preserve">
+    <value>Run time</value>
+  </data>
+  <data name="s91019_2052" xml:space="preserve">
+    <value>运行时间</value>
+  </data>
+  <data name="r31001_1033" xml:space="preserve">
+    <value>Select the color of weld(black or white)</value>
+  </data>
+  <data name="r31001_2052" xml:space="preserve">
+    <value>请选择焊点的颜色</value>
+  </data>
+  <data name="r31002_1033" xml:space="preserve">
+    <value>Adjust the area so that the part for calibration can be covered</value>
+  </data>
+  <data name="r31002_2052" xml:space="preserve">
+    <value>请调整区域，应包含待校正焊点</value>
+  </data>
+  <data name="r31003_1033" xml:space="preserve">
+    <value>Press the Calibrate button to save your settings</value>
+  </data>
+  <data name="r31003_2052" xml:space="preserve">
+    <value>请按下“校正”按钮进行校正</value>
+  </data>
+  <data name="r31004_1033" xml:space="preserve">
+    <value>Select the value of the similarity</value>
+  </data>
+  <data name="r31004_2052" xml:space="preserve">
+    <value>请调整相似度的大小</value>
+  </data>
+  <data name="r31005_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r31005_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r31006_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r31006_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r32001_1033" xml:space="preserve">
+    <value>Adjust the area so that the part for detection can be covered</value>
+  </data>
+  <data name="r32001_2052" xml:space="preserve">
+    <value>请调整区域，应包含待需检测部分</value>
+  </data>
+  <data name="r32002_1033" xml:space="preserve">
+    <value>Enter the value of the pass conditions</value>
+  </data>
+  <data name="r32002_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r32003_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r32003_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r33001_1033" xml:space="preserve">
+    <value>Select the color of square(black or white)</value>
+  </data>
+  <data name="r33001_2052" xml:space="preserve">
+    <value>请选择四边形颜色</value>
+  </data>
+  <data name="r33002_1033" xml:space="preserve">
+    <value>Adjust the area slightly larger than the part </value>
+  </data>
+  <data name="r33002_2052" xml:space="preserve">
+    <value>请调整检测区域至稍大于检测部件</value>
+  </data>
+  <data name="r33003_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r33003_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r33004_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r33004_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r34001_1033" xml:space="preserve">
+    <value>Adjust the region of detection area so that the part can be covered</value>
+  </data>
+  <data name="r34001_2052" xml:space="preserve">
+    <value>请调整检测区域的大小使内外圆围住所需检测区域</value>
+  </data>
+  <data name="r34002_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r34002_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r34003_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r34003_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r35001_1033" xml:space="preserve">
+    <value>Adjust the region of detection area so that the part can be covered</value>
+  </data>
+  <data name="r35001_2052" xml:space="preserve">
+    <value>请调整检测区域的大小使内外圆围住所需检测区域</value>
+  </data>
+  <data name="r35002_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r35002_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r35003_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r35003_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="s16018_1033" xml:space="preserve">
+    <value>/M</value>
+  </data>
+  <data name="s16018_2052" xml:space="preserve">
+    <value>个/分钟</value>
+  </data>
+  <data name="s70014_1033" xml:space="preserve">
+    <value>Side crack is substandard</value>
+  </data>
+  <data name="s70014_2052" xml:space="preserve">
+    <value>边缘开裂未达标</value>
+  </data>
+  <data name="s70015_1033" xml:space="preserve">
+    <value>Side crack</value>
+  </data>
+  <data name="s70015_2052" xml:space="preserve">
+    <value>边缘开裂</value>
+  </data>
+  <data name="s91020_1033" xml:space="preserve">
+    <value>Beginning run</value>
+  </data>
+  <data name="s91020_2052" xml:space="preserve">
+    <value>开始运行</value>
+  </data>
+  <data name="s91021_1033" xml:space="preserve">
+    <value>Switch Chinese and English will result in:</value>
+  </data>
+  <data name="s91021_2052" xml:space="preserve">
+    <value>中英文切换将导致：</value>
+  </data>
+  <data name="s91022_1033" xml:space="preserve">
+    <value>Test result will be removed!</value>
+  </data>
+  <data name="s91022_2052" xml:space="preserve">
+    <value>检测结果将被删除！</value>
+  </data>
+  <data name="s91023_1033" xml:space="preserve">
+    <value>1.Filter name can not be switched!</value>
+  </data>
+  <data name="s91023_2052" xml:space="preserve">
+    <value>1.滤波器名称不能切换！</value>
+  </data>
+  <data name="s91024_1033" xml:space="preserve">
+    <value>2.The default setting can not be switched!</value>
+  </data>
+  <data name="s91024_2052" xml:space="preserve">
+    <value>2.默认设置名称不能切换！</value>
+  </data>
+  <data name="s91025_1033" xml:space="preserve">
+    <value>Attention to switching Chinese and English</value>
+  </data>
+  <data name="s91025_2052" xml:space="preserve">
+    <value>中英文切换注意</value>
+  </data>
+  <data name="s91026_1033" xml:space="preserve">
+    <value>Canceled creating new configuration</value>
+  </data>
+  <data name="s91026_2052" xml:space="preserve">
+    <value>取消新建设置</value>
+  </data>
+  <data name="s91027_1033" xml:space="preserve">
+    <value>Are you sure to save the settings?</value>
+  </data>
+  <data name="s91027_2052" xml:space="preserve">
+    <value>请确定设置是否保存？</value>
+  </data>
+  <data name="s91028_1033" xml:space="preserve">
+    <value>Are you sure to change the settings?\n\nNote: Switching from "{0}" to "{1}", and "{0}" will be automatically saved prior to the switching operation.</value>
+  </data>
+  <data name="s91028_2052" xml:space="preserve">
+    <value>请确定是否更换设置？\n\n注：将从 "{0}" 切换到 "{1}"，并且"{0}"将在前换前自动保存</value>
+  </data>
+  <data name="s31001_1033" xml:space="preserve">
+    <value>Thread locating</value>
+  </data>
+  <data name="s31001_2052" xml:space="preserve">
+    <value>牙部定位</value>
+  </data>
+  <data name="s91033_1033" xml:space="preserve">
+    <value>Configuration switched successfully</value>
+  </data>
+  <data name="s91033_2052" xml:space="preserve">
+    <value>配置切换成功</value>
+  </data>
+  <data name="s91034_1033" xml:space="preserve">
+    <value>This config already exists, please try another one.</value>
+  </data>
+  <data name="s91034_2052" xml:space="preserve">
+    <value>该配置名已存在，请改名重试</value>
+  </data>
+  <data name="s91035_1033" xml:space="preserve">
+    <value>Settings saving failure, Would like to try again?</value>
+  </data>
+  <data name="s91035_2052" xml:space="preserve">
+    <value>设置保存失败，请重试？</value>
+  </data>
+  <data name="s91036_1033" xml:space="preserve">
+    <value>Save settings</value>
+  </data>
+  <data name="s91036_2052" xml:space="preserve">
+    <value>保存设置</value>
+  </data>
+  <data name="s32001_1033" xml:space="preserve">
+    <value>Cushion</value>
+  </data>
+  <data name="s32001_2052" xml:space="preserve">
+    <value>弹垫检测</value>
+  </data>
+  <data name="s32002_1033" xml:space="preserve">
+    <value>Error when calculating cushion</value>
+  </data>
+  <data name="s32002_2052" xml:space="preserve">
+    <value>计算弹垫出错</value>
+  </data>
+  <data name="s32003_1033" xml:space="preserve">
+    <value>Can not find the cushion</value>
+  </data>
+  <data name="s32003_2052" xml:space="preserve">
+    <value>未找到弹垫</value>
+  </data>
+  <data name="s29006_1033" xml:space="preserve">
+    <value>Max pitch is substandard</value>
+  </data>
+  <data name="s29006_2052" xml:space="preserve">
+    <value>最大牙距未达标</value>
+  </data>
+  <data name="s29007_1033" xml:space="preserve">
+    <value>Max pitch</value>
+  </data>
+  <data name="s29007_2052" xml:space="preserve">
+    <value>最大牙距</value>
+  </data>
+  <data name="s91037_1033" xml:space="preserve">
+    <value>Camera settings loading failure!</value>
+  </data>
+  <data name="s91037_2052" xml:space="preserve">
+    <value>相机设置读取失败！</value>
+  </data>
+  <data name="background_1033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Depends\background_1033.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_2052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Depends\background_2052.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s29008_1033" xml:space="preserve">
+    <value>Min pitch si substandard</value>
+  </data>
+  <data name="s29008_2052" xml:space="preserve">
+    <value>最小牙距未达标</value>
+  </data>
+  <data name="s29009_1033" xml:space="preserve">
+    <value>Min pitch</value>
+  </data>
+  <data name="s29009_2052" xml:space="preserve">
+    <value>最小牙距</value>
+  </data>
+  <data name="s40014_1033" xml:space="preserve">
+    <value>Concentricity </value>
+  </data>
+  <data name="s40014_2052" xml:space="preserve">
+    <value>同心度计算失败</value>
+  </data>
+  <data name="s40015_1033" xml:space="preserve">
+    <value>Not find compare part</value>
+  </data>
+  <data name="s40015_2052" xml:space="preserve">
+    <value>未找到比较原件</value>
+  </data>
+  <data name="s92001_1033" xml:space="preserve">
+    <value>Filling Area</value>
+  </data>
+  <data name="s92001_2052" xml:space="preserve">
+    <value>区域填充</value>
+  </data>
+  <data name="r36001_1033" xml:space="preserve">
+    <value>Select the cushion color</value>
+  </data>
+  <data name="r36001_2052" xml:space="preserve">
+    <value>请选择弹垫检测颜色</value>
+  </data>
+  <data name="r36002_1033" xml:space="preserve">
+    <value>Adjust the region of detection area</value>
+  </data>
+  <data name="r36002_2052" xml:space="preserve">
+    <value>请调整检测区域大小</value>
+  </data>
+  <data name="r36003_1033" xml:space="preserve">
+    <value>correct the completed adjustment </value>
+  </data>
+  <data name="r36003_2052" xml:space="preserve">
+    <value>请调整完成后进行校正</value>
+  </data>
+  <data name="r37001_1033" xml:space="preserve">
+    <value>Select the fill color</value>
+  </data>
+  <data name="r37001_2052" xml:space="preserve">
+    <value>请选择填充的颜色</value>
+  </data>
+  <data name="r37002_1033" xml:space="preserve">
+    <value>Adjust the region of the detection area</value>
+  </data>
+  <data name="r37002_2052" xml:space="preserve">
+    <value>请调整填充区域的大小</value>
+  </data>
+  <data name="r38001_1033" xml:space="preserve">
+    <value>Select the locating color</value>
+  </data>
+  <data name="r38001_2052" xml:space="preserve">
+    <value>请选择定位颜色</value>
+  </data>
+  <data name="r38002_1033" xml:space="preserve">
+    <value>Adjust the region of the detection area</value>
+  </data>
+  <data name="r38002_2052" xml:space="preserve">
+    <value>请调整检测区域大小</value>
+  </data>
+  <data name="r36004_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r36004_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r37003_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r37003_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r38003_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r38003_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="r39001_1033" xml:space="preserve">
+    <value>Select the area </value>
+  </data>
+  <data name="r39001_2052" xml:space="preserve">
+    <value>请调整面积区间值</value>
+  </data>
+  <data name="r39002_1033" xml:space="preserve">
+    <value>Adjust the region of the detection area</value>
+  </data>
+  <data name="r39002_2052" xml:space="preserve">
+    <value>请调整检测区域大小</value>
+  </data>
+  <data name="r39003_1033" xml:space="preserve">
+    <value>Select the test items</value>
+  </data>
+  <data name="r39003_2052" xml:space="preserve">
+    <value>请选择需要检测的项目</value>
+  </data>
+  <data name="r39004_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r39004_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="s0_1033" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="s0_2052" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="s92002_1033" xml:space="preserve">
+    <value>Error when filling area</value>
+  </data>
+  <data name="s92002_2052" xml:space="preserve">
+    <value>区域填充失败</value>
+  </data>
+  <data name="s92003_1033" xml:space="preserve">
+    <value>The number of qualified particle:</value>
+  </data>
+  <data name="s92003_2052" xml:space="preserve">
+    <value>符合条件的图形个数：</value>
+  </data>
+  <data name="s32004_1033" xml:space="preserve">
+    <value>Cushion height is substandard</value>
+  </data>
+  <data name="s32004_2052" xml:space="preserve">
+    <value>弹垫高度未达标</value>
+  </data>
+  <data name="s32005_1033" xml:space="preserve">
+    <value>Cushion height</value>
+  </data>
+  <data name="s32005_2052" xml:space="preserve">
+    <value>弹垫高度</value>
+  </data>
+  <data name="s32006_1033" xml:space="preserve">
+    <value>Cushion height is substandard</value>
+  </data>
+  <data name="s32006_2052" xml:space="preserve">
+    <value>弹垫宽度未达标</value>
+  </data>
+  <data name="s32007_1033" xml:space="preserve">
+    <value>Cushion width</value>
+  </data>
+  <data name="s32007_2052" xml:space="preserve">
+    <value>弹垫宽度</value>
+  </data>
+  <data name="s16020_1033" xml:space="preserve">
+    <value>Cache hopper is full!</value>
+  </data>
+  <data name="s16020_2052" xml:space="preserve">
+    <value>储料斗满料！</value>
+  </data>
+  <data name="s16021_1033" xml:space="preserve">
+    <value>Cache hopper cylinder failure!</value>
+  </data>
+  <data name="s16021_2052" xml:space="preserve">
+    <value>储料斗气缸故障！</value>
+  </data>
+  <data name="s16022_1033" xml:space="preserve">
+    <value>Inverted hopper failure!</value>
+  </data>
+  <data name="s16022_2052" xml:space="preserve">
+    <value>倒料桶故障！</value>
+  </data>
+  <data name="s16023_1033" xml:space="preserve">
+    <value>Push empty box cylinder failure!</value>
+  </data>
+  <data name="s16023_2052" xml:space="preserve">
+    <value>推空盒气缸故障！</value>
+  </data>
+  <data name="s16024_1033" xml:space="preserve">
+    <value>Pull empty box failure!</value>
+  </data>
+  <data name="s16024_2052" xml:space="preserve">
+    <value>送空盒故障！</value>
+  </data>
+  <data name="s16025_1033" xml:space="preserve">
+    <value>Pull full box failure!</value>
+  </data>
+  <data name="s16025_2052" xml:space="preserve">
+    <value>送满盒故障！</value>
+  </data>
+  <data name="s16026_1033" xml:space="preserve">
+    <value>Pull full box out count!</value>
+  </data>
+  <data name="s16026_2052" xml:space="preserve">
+    <value>送满盒超限！</value>
+  </data>
+  <data name="s16027_1033" xml:space="preserve">
+    <value>Supply feed out time!</value>
+  </data>
+  <data name="s16027_2052" xml:space="preserve">
+    <value>补料超时</value>
+  </data>
+  <data name="s114_1033" xml:space="preserve">
+    <value>Cache hopper is arrived count</value>
+  </data>
+  <data name="s114_2052" xml:space="preserve">
+    <value>储料满盒</value>
+  </data>
+  <data name="s211_1033" xml:space="preserve">
+    <value>Box full</value>
+  </data>
+  <data name="s211_2052" xml:space="preserve">
+    <value>满盒超限</value>
+  </data>
+  <data name="s219_1033" xml:space="preserve">
+    <value>Waiting for empty box</value>
+  </data>
+  <data name="s219_2052" xml:space="preserve">
+    <value>等待空盒</value>
+  </data>
+  <data name="s1700_1033" xml:space="preserve">
+    <value>Out blow count!</value>
+  </data>
+  <data name="s1700_2052" xml:space="preserve">
+    <value>吹气超量！</value>
+  </data>
+  <data name="s2105_1033" xml:space="preserve">
+    <value>Depression</value>
+  </data>
+  <data name="s2105_2052" xml:space="preserve">
+    <value>气压不足</value>
+  </data>
+  <data name="s2106_1033" xml:space="preserve">
+    <value>Emergency button is manually pressed</value>
+  </data>
+  <data name="s2106_2052" xml:space="preserve">
+    <value>紧急停止已经按下</value>
+  </data>
+  <data name="s2108_1033" xml:space="preserve">
+    <value>Blow Locked!</value>
+  </data>
+  <data name="s2108_2052" xml:space="preserve">
+    <value>吹气堵料！</value>
+  </data>
+  <data name="s2402_1033" xml:space="preserve">
+    <value>Cache hopper is full!</value>
+  </data>
+  <data name="s2402_2052" xml:space="preserve">
+    <value>储料斗满料！</value>
+  </data>
+  <data name="s2404_1033" xml:space="preserve">
+    <value>Cache hopper cylinder failure!</value>
+  </data>
+  <data name="s2404_2052" xml:space="preserve">
+    <value>储料斗气缸故障！</value>
+  </data>
+  <data name="s2406_1033" xml:space="preserve">
+    <value>Inverted hopper failure!</value>
+  </data>
+  <data name="s2406_2052" xml:space="preserve">
+    <value>倒料桶故障！</value>
+  </data>
+  <data name="s2408_1033" xml:space="preserve">
+    <value>Push empty box cylinder failure!</value>
+  </data>
+  <data name="s2408_2052" xml:space="preserve">
+    <value>推空盒气缸故障！</value>
+  </data>
+  <data name="s2412_1033" xml:space="preserve">
+    <value>Pull empty box failure!</value>
+  </data>
+  <data name="s2412_2052" xml:space="preserve">
+    <value>送空盒故障！</value>
+  </data>
+  <data name="s2414_1033" xml:space="preserve">
+    <value>Pull full box failure!</value>
+  </data>
+  <data name="s2414_2052" xml:space="preserve">
+    <value>送满盒故障！</value>
+  </data>
+  <data name="s2416_1033" xml:space="preserve">
+    <value>Pull full box out count!</value>
+  </data>
+  <data name="s2416_2052" xml:space="preserve">
+    <value>送满盒超限！</value>
+  </data>
+  <data name="s2418_1033" xml:space="preserve">
+    <value>Supply feed out time!</value>
+  </data>
+  <data name="s2418_2052" xml:space="preserve">
+    <value>补料超时</value>
+  </data>
+  <data name="s2060_1033" xml:space="preserve">
+    <value>Cache hopper is arrived count</value>
+  </data>
+  <data name="s2060_2052" xml:space="preserve">
+    <value>储料满盒</value>
+  </data>
+  <data name="s2066_1033" xml:space="preserve">
+    <value>Waiting for empty box</value>
+  </data>
+  <data name="s2066_2052" xml:space="preserve">
+    <value>等待空盒</value>
+  </data>
+  <data name="s2068_1033" xml:space="preserve">
+    <value>Box full</value>
+  </data>
+  <data name="s2068_2052" xml:space="preserve">
+    <value>满盒超限</value>
+  </data>
+  <data name="s93001_1033" xml:space="preserve">
+    <value>Binarize</value>
+  </data>
+  <data name="s93001_2052" xml:space="preserve">
+    <value>二值化</value>
+  </data>
+  <data name="s93002_1033" xml:space="preserve">
+    <value>Binarize the image</value>
+  </data>
+  <data name="s93002_2052" xml:space="preserve">
+    <value>对图像进行二值化处理</value>
+  </data>
+  <data name="s93003_1033" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="s93003_2052" xml:space="preserve">
+    <value>夹距量测</value>
+  </data>
+  <data name="s93004_1033" xml:space="preserve">
+    <value>Measure the distance</value>
+  </data>
+  <data name="s93004_2052" xml:space="preserve">
+    <value>测量距离</value>
+  </data>
+  <data name="s93005_1033" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="s93005_2052" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="s93006_1033" xml:space="preserve">
+    <value>Measure the angle an the steepness</value>
+  </data>
+  <data name="s93006_2052" xml:space="preserve">
+    <value>测量角度,尖锐度</value>
+  </data>
+  <data name="s93007_1033" xml:space="preserve">
+    <value>ThreadDamage</value>
+  </data>
+  <data name="s93007_2052" xml:space="preserve">
+    <value>牙伤检测</value>
+  </data>
+  <data name="s93008_1033" xml:space="preserve">
+    <value>Checkout is the Thread Dameged</value>
+  </data>
+  <data name="s93008_2052" xml:space="preserve">
+    <value>对零件的牙部有无磕伤进行检测</value>
+  </data>
+  <data name="s93009_1033" xml:space="preserve">
+    <value>Diameter</value>
+  </data>
+  <data name="s93009_2052" xml:space="preserve">
+    <value>直径</value>
+  </data>
+  <data name="s93010_1033" xml:space="preserve">
+    <value>Measure the max diameter, min diameter, roundness, side crack and the concentricity</value>
+  </data>
+  <data name="s93010_2052" xml:space="preserve">
+    <value>测量外径，内孔径的最大、最小直径，真圆度,边缘开裂以及同心度</value>
+  </data>
+  <data name="s93011_1033" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="s93011_2052" xml:space="preserve">
+    <value>牙部</value>
+  </data>
+  <data name="s93012_1033" xml:space="preserve">
+    <value>Measure the major diameter, the minor diameter, the pitch diameter, the pitch and so on of the thread</value>
+  </data>
+  <data name="s93012_2052" xml:space="preserve">
+    <value>测量牙外径，中径，内径、牙距等</value>
+  </data>
+  <data name="s93013_1033" xml:space="preserve">
+    <value>Hexagon</value>
+  </data>
+  <data name="s93013_2052" xml:space="preserve">
+    <value>六边形</value>
+  </data>
+  <data name="s93014_1033" xml:space="preserve">
+    <value>Measure the diagonal and the subtense of the hexagon</value>
+  </data>
+  <data name="s93014_2052" xml:space="preserve">
+    <value>测量六边形的对边以及对角</value>
+  </data>
+  <data name="s93015_1033" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="s93015_2052" xml:space="preserve">
+    <value>头厚测量</value>
+  </data>
+  <data name="s93016_1033" xml:space="preserve">
+    <value>Measure the diameter and the depth of the head</value>
+  </data>
+  <data name="s93016_2052" xml:space="preserve">
+    <value>测量头部的直径和厚度</value>
+  </data>
+  <data name="s93017_1033" xml:space="preserve">
+    <value>CenterCrack</value>
+  </data>
+  <data name="s93017_2052" xml:space="preserve">
+    <value>中心开裂</value>
+  </data>
+  <data name="s93018_1033" xml:space="preserve">
+    <value>Checkout is the center of the head cracked</value>
+  </data>
+  <data name="s93018_2052" xml:space="preserve">
+    <value>测量头部中心是否开裂</value>
+  </data>
+  <data name="s93019_1033" xml:space="preserve">
+    <value>Weld</value>
+  </data>
+  <data name="s93019_2052" xml:space="preserve">
+    <value>焊点</value>
+  </data>
+  <data name="s93020_1033" xml:space="preserve">
+    <value>Calculate the count of welds and the max area, the min area of them</value>
+  </data>
+  <data name="s93020_2052" xml:space="preserve">
+    <value>检测焊点的个数，以及焊点的最大、最检测焊点的个数，以及焊点的最大、最小面积</value>
+  </data>
+  <data name="s93021_1033" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="s93021_2052" xml:space="preserve">
+    <value>四边形</value>
+  </data>
+  <data name="s93022_1033" xml:space="preserve">
+    <value>Measure the oppo angle and oppo flat for square</value>
+  </data>
+  <data name="s93022_2052" xml:space="preserve">
+    <value>测量四边形的对边以及对角</value>
+  </data>
+  <data name="s93023_1033" xml:space="preserve">
+    <value>LackOfMaterial</value>
+  </data>
+  <data name="s93023_2052" xml:space="preserve">
+    <value>缺料</value>
+  </data>
+  <data name="s93024_1033" xml:space="preserve">
+    <value>Measure the starving area</value>
+  </data>
+  <data name="s93024_2052" xml:space="preserve">
+    <value>测量选择区域内的最大缺料面积</value>
+  </data>
+  <data name="s93025_1033" xml:space="preserve">
+    <value>ThreadCount</value>
+  </data>
+  <data name="s93025_2052" xml:space="preserve">
+    <value>牙数</value>
+  </data>
+  <data name="s93026_1033" xml:space="preserve">
+    <value>Measure the thread count</value>
+  </data>
+  <data name="s93026_2052" xml:space="preserve">
+    <value>计算内牙的个数</value>
+  </data>
+  <data name="s93027_1033" xml:space="preserve">
+    <value>ThreadLocating</value>
+  </data>
+  <data name="s93027_2052" xml:space="preserve">
+    <value>牙部定位</value>
+  </data>
+  <data name="s93028_1033" xml:space="preserve">
+    <value>Find the thread location</value>
+  </data>
+  <data name="s93028_2052" xml:space="preserve">
+    <value>对牙部进行定位</value>
+  </data>
+  <data name="s93029_1033" xml:space="preserve">
+    <value>Cushion</value>
+  </data>
+  <data name="s93029_2052" xml:space="preserve">
+    <value>弹垫检测</value>
+  </data>
+  <data name="s93030_1033" xml:space="preserve">
+    <value>Measure the curshion</value>
+  </data>
+  <data name="s93030_2052" xml:space="preserve">
+    <value>检测弹垫</value>
+  </data>
+  <data name="s93031_1033" xml:space="preserve">
+    <value>FillingArea</value>
+  </data>
+  <data name="s93031_2052" xml:space="preserve">
+    <value>区域填充</value>
+  </data>
+  <data name="s93032_1033" xml:space="preserve">
+    <value>Put the current region for black or white</value>
+  </data>
+  <data name="s93032_2052" xml:space="preserve">
+    <value>将所选区域填充成白色或黑色</value>
+  </data>
+  <data name="s93033_1033" xml:space="preserve">
+    <value>Marking</value>
+  </data>
+  <data name="s93033_2052" xml:space="preserve">
+    <value>印记检测</value>
+  </data>
+  <data name="s93034_1033" xml:space="preserve">
+    <value>Measure the marking</value>
+  </data>
+  <data name="s93034_2052" xml:space="preserve">
+    <value>检测螺帽头部是否有印记</value>
+  </data>
+  <data name="s33001_1033" xml:space="preserve">
+    <value>Marking</value>
+  </data>
+  <data name="s33001_2052" xml:space="preserve">
+    <value>印记检测</value>
+  </data>
+  <data name="s33002_1033" xml:space="preserve">
+    <value>Error when calculating marking</value>
+  </data>
+  <data name="s33002_2052" xml:space="preserve">
+    <value>计算印记出错</value>
+  </data>
+  <data name="s33003_1033" xml:space="preserve">
+    <value>Can not find the marking</value>
+  </data>
+  <data name="s33003_2052" xml:space="preserve">
+    <value>未找到印记</value>
+  </data>
+  <data name="s33004_1033" xml:space="preserve">
+    <value>Marking count is substandard</value>
+  </data>
+  <data name="s33004_2052" xml:space="preserve">
+    <value>印记个数未达标</value>
+  </data>
+  <data name="s33005_1033" xml:space="preserve">
+    <value>Cushion count</value>
+  </data>
+  <data name="s33005_2052" xml:space="preserve">
+    <value>印记个数</value>
+  </data>
+  <data name="s16028_1033" xml:space="preserve">
+    <value>Clear the plate!</value>
+  </data>
+  <data name="s16028_2052" xml:space="preserve">
+    <value>超过盘面设定，请清洗盘面！</value>
+  </data>
+  <data name="s16030_1033" xml:space="preserve">
+    <value>Long time no feed, please check!</value>
+  </data>
+  <data name="s16030_2052" xml:space="preserve">
+    <value>长时间无料，请检查！</value>
+  </data>
+  <data name="r41001_1033" xml:space="preserve">
+    <value>Select the marking color</value>
+  </data>
+  <data name="r41001_2052" xml:space="preserve">
+    <value>请选择印记颜色</value>
+  </data>
+  <data name="r41002_1033" xml:space="preserve">
+    <value>Adjust the region of the detection area</value>
+  </data>
+  <data name="r41002_2052" xml:space="preserve">
+    <value>请调整所需检测区域的范围</value>
+  </data>
+  <data name="r41003_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r41003_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="r41004_1033" xml:space="preserve">
+    <value>Press the OK button to save your settings</value>
+  </data>
+  <data name="r41004_2052" xml:space="preserve">
+    <value>请按下“确定”键保存设置</value>
+  </data>
+  <data name="s80029_1033" xml:space="preserve">
+    <value>Cylinder is substandard</value>
+  </data>
+  <data name="s80029_2052" xml:space="preserve">
+    <value>上光杆未达标</value>
+  </data>
+  <data name="s93035_1033" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="s93035_2052" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="s93036_1033" xml:space="preserve">
+    <value>Calculate the Area of the selected in region</value>
+  </data>
+  <data name="s93036_2052" xml:space="preserve">
+    <value>计算区域内所选颜色的面积</value>
+  </data>
+  <data name="s34001_1033" xml:space="preserve">
+    <value>CylinderArea</value>
+  </data>
+  <data name="s34001_2052" xml:space="preserve">
+    <value>光杆面积</value>
+  </data>
+  <data name="s34002_1033" xml:space="preserve">
+    <value>Error when calculating Cylinder</value>
+  </data>
+  <data name="s34002_2052" xml:space="preserve">
+    <value>计算光杆出错</value>
+  </data>
+  <data name="s34003_1033" xml:space="preserve">
+    <value>Can not find the Cylinder</value>
+  </data>
+  <data name="s34003_2052" xml:space="preserve">
+    <value>未找到光杆</value>
+  </data>
+  <data name="s34004_1033" xml:space="preserve">
+    <value>Area is substandard</value>
+  </data>
+  <data name="s34004_2052" xml:space="preserve">
+    <value>面积未达标</value>
+  </data>
+  <data name="s34005_1033" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="s34005_2052" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="s17028_1033" xml:space="preserve">
+    <value>PackTotal should be set between 1 - 32000, please Reset and save</value>
+  </data>
+  <data name="s17028_2052" xml:space="preserve">
+    <value>支数应设置在1——32000之间，请重新设置并保存</value>
+  </data>
+  <data name="s17029_1033" xml:space="preserve">
+    <value>Write data failed, Please check the COM</value>
+  </data>
+  <data name="s17029_2052" xml:space="preserve">
+    <value>写入数据失败，请检查通信端口</value>
+  </data>
+  <data name="r42001_1033" xml:space="preserve">
+    <value>Select the color</value>
+  </data>
+  <data name="r42001_2052" xml:space="preserve">
+    <value>请选择颜色</value>
+  </data>
+  <data name="r42002_1033" xml:space="preserve">
+    <value>Adjust the region of the detection area</value>
+  </data>
+  <data name="r42002_2052" xml:space="preserve">
+    <value>请调整所需检测区域的范围</value>
+  </data>
+  <data name="r42003_1033" xml:space="preserve">
+    <value>Select the test items and enter the value of the pass conditions</value>
+  </data>
+  <data name="r42003_2052" xml:space="preserve">
+    <value>请选择需要检测的项目，并输入合格判定值</value>
+  </data>
+  <data name="s80030_1033" xml:space="preserve">
+    <value>Pilot</value>
+  </data>
+  <data name="s80030_2052" xml:space="preserve">
+    <value>下光杆</value>
+  </data>
+  <data name="s80031_1033" xml:space="preserve">
+    <value>Pilot is substandard</value>
+  </data>
+  <data name="s80031_2052" xml:space="preserve">
+    <value>下光杆未达标</value>
+  </data>
+  <data name="s9037_2052" xml:space="preserve">
+    <value>轮裂</value>
+  </data>
+  <data name="s93037_1033" xml:space="preserve">
+    <value>WheelCrack</value>
+  </data>
+  <data name="s93037_2052" xml:space="preserve">
+    <value>轮裂</value>
+  </data>
+  <data name="s93038_1033" xml:space="preserve">
+    <value>Check if has WheelCrack</value>
+  </data>
+  <data name="s93038_2052" xml:space="preserve">
+    <value>检测是否有轮裂</value>
+  </data>
+  <data name="r25002_1033" xml:space="preserve">
+    <value>Do you want to export excel report,It will take a few seconds,please wait when it done,you can open it in disk E.</value>
+  </data>
+  <data name="r25002_2052" xml:space="preserve">
+    <value>请确认是否导出Excel报表，导出将会花费一小段时间，请耐心等待.Excel报表将导出在E盘根目录下面.</value>
+  </data>
+  <data name="r93039_1033" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="r93039_2052" xml:space="preserve">
+    <value>相机</value>
+  </data>
+  <data name="s93039_1033" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="s93039_2052" xml:space="preserve">
+    <value>相机</value>
+  </data>
+  <data name="hd_background_1033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hd_background_1033.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hd_background_2052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hd_background_2052.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

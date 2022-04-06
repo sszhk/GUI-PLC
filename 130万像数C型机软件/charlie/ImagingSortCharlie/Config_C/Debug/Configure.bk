@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SequenceNumber>A038D3F167294261</SequenceNumber>
+  <EnableSetupCamera>false</EnableSetupCamera>
+  <LogLevel>LV_CLOSE</LogLevel>
+  <Language>true</Language>
+  <Test>true</Test>
+  <Wizard>false</Wizard>
+  <DataSheet>false</DataSheet>
+  <ConsecutiveBadParts>true</ConsecutiveBadParts>
+  <Pack>true</Pack>
+  <ClearPlate>true</ClearPlate>
+  <CheckFeed>true</CheckFeed>
+  <Binarize>true</Binarize>
+  <Distance>true</Distance>
+  <Angle>true</Angle>
+  <ThreadDamage>true</ThreadDamage>
+  <Diameter>true</Diameter>
+  <Thread>true</Thread>
+  <Hexagon>true</Hexagon>
+  <Head>true</Head>
+  <CenterCrack>false</CenterCrack>
+  <Weld>true</Weld>
+  <Square>true</Square>
+  <Starving>true</Starving>
+  <ThreadCount>true</ThreadCount>
+  <ThreadLocate>true</ThreadLocate>
+  <Cushion>true</Cushion>
+  <FillArea>true</FillArea>
+  <Marking>true</Marking>
+  <Area>true</Area>
+  <label_X00>X00</label_X00>
+  <label_X10>X10</label_X10>
+  <label_X0B>X0B</label_X0B>
+  <label_X11>X11</label_X11>
+  <label_X12>X12</label_X12>
+  <label_X13>X13</label_X13>
+  <label_X15>X15</label_X15>
+  <label_X16>X16</label_X16>
+  <label_X17>X17</label_X17>
+  <label_X18>X18</label_X18>
+  <label_X19>X19</label_X19>
+  <CameraCount>0</CameraCount>
+  <TeamCount>5</TeamCount>
+  <StationCount>4</StationCount>
+  <ViewSerial />
+  <ViewTeam />
+  <ViewStation />
+</Configure>

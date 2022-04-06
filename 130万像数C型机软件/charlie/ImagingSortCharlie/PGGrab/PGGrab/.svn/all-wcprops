@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/als/!svn/ver/151/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/stdafx.h
+END
+PGObj.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/151/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/PGObj.cpp
+END
+PGGrab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/136/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/PGGrab.cpp
+END
+PGObj.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/als/!svn/ver/116/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/PGObj.h
+END
+PGGrab.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/PGGrab.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/targetver.h
+END
+tinyxml.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/tinyxml.h
+END
+auto_array.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/auto_array.h
+END
+PGGrab.def
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/116/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/PGGrab.def
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/dllmain.cpp
+END
+tinystr.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/tinystr.h
+END
+pgobjmisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/150/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/pgobjmisc.h
+END
+PGGrab.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/als/!svn/ver/150/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/PGGrab.vcproj
+END
+PG.rc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/PG.rc
+END
+tinyxml.lib
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/tinyxml.lib
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/ReadMe.txt
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/resource.h
+END
+tinyxmld.lib
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/83/trunk/charlie/ImagingSortCharlie/PGGrab/PGGrab/tinyxmld.lib
+END

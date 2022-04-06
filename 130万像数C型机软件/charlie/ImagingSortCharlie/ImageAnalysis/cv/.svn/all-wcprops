@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/als/!svn/ver/45/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv
+END
+cxflann.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cxflann.h
+END
+cxcore210d.lib
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cxcore210d.lib
+END
+BlobLibraryConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/BlobLibraryConfiguration.h
+END
+BlobProperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/BlobProperties.h
+END
+ComponentLabeling.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/ComponentLabeling.h
+END
+cvblobslibd.lib
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/als/!svn/ver/45/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cvblobslibd.lib
+END
+cv.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cv.h
+END
+cv210.lib
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cv210.lib
+END
+flann.lib
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/flann.lib
+END
+BlobOperators.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/BlobOperators.h
+END
+BlobResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/BlobResult.h
+END
+blob.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/blob.h
+END
+zlib.lib
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/zlib.lib
+END
+flannd.lib
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/flannd.lib
+END
+cxcore.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cxcore.h
+END
+zlibd.lib
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/zlibd.lib
+END
+cvver.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cvver.h
+END
+opencv_lapackd.lib
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/opencv_lapackd.lib
+END
+cvtypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cvtypes.h
+END
+cxtypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cxtypes.h
+END
+cvblobslib.lib
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cvblobslib.lib
+END
+cvinternal.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cvinternal.h
+END
+cv.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cv.hpp
+END
+cxmat.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cxmat.hpp
+END
+cvcompat.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cvcompat.h
+END
+cxoperations.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cxoperations.hpp
+END
+cv210d.lib
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cv210d.lib
+END
+cxcore.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cxcore.hpp
+END
+opencv_lapack.lib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/opencv_lapack.lib
+END
+cxerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cxerror.h
+END
+cxcore210.lib
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cxcore210.lib
+END
+cxmisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/cxmisc.h
+END
+BlobContour.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/als/!svn/ver/31/trunk/charlie/ImagingSortCharlie/ImageAnalysis/cv/BlobContour.h
+END

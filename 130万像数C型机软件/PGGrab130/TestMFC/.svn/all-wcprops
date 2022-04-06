@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/als/!svn/ver/148/trunk/PGGrab130/TestMFC
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/als/!svn/ver/121/trunk/PGGrab130/TestMFC/stdafx.h
+END
+TestMFCDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/als/!svn/ver/121/trunk/PGGrab130/TestMFC/TestMFCDlg.h
+END
+TestMFC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/als/!svn/ver/121/trunk/PGGrab130/TestMFC/TestMFC.cpp
+END
+TestMFC.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/als/!svn/ver/121/trunk/PGGrab130/TestMFC/TestMFC.vcproj
+END
+TestMFC.rc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/als/!svn/ver/121/trunk/PGGrab130/TestMFC/TestMFC.rc
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/als/!svn/ver/121/trunk/PGGrab130/TestMFC/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/als/!svn/ver/121/trunk/PGGrab130/TestMFC/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/als/!svn/ver/121/trunk/PGGrab130/TestMFC/ReadMe.txt
+END
+TestMFC.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/als/!svn/ver/121/trunk/PGGrab130/TestMFC/TestMFC.h
+END
+TestMFCDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/als/!svn/ver/148/trunk/PGGrab130/TestMFC/TestMFCDlg.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/als/!svn/ver/121/trunk/PGGrab130/TestMFC/resource.h
+END

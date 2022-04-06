@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectName>ImageAna</ProjectName>
+    <ProjectGuid>{5519CFCD-D9CF-4CDF-BAA6-985712506810}</ProjectGuid>
+    <RootNamespace>ImageAna</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.32203.90</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TESTNIDLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TESTNIDLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat />
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="adaptive_threshold.cc" />
+    <ClCompile Include="DataStat.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="encrypt.cpp" />
+    <ClCompile Include="IACalc.cpp" />
+    <ClCompile Include="IACalcAngle.cpp" />
+    <ClCompile Include="IACalcArea.cc" />
+    <ClCompile Include="IACalcBurs.cpp" />
+    <ClCompile Include="IACalcCrack.cpp" />
+    <ClCompile Include="IACalcCushion.cpp" />
+    <ClCompile Include="IACalcDiameter.cpp" />
+    <ClCompile Include="IACalcDistance.cpp" />
+    <ClCompile Include="IACalcFillArea.cc" />
+    <ClCompile Include="IACalcHead.cpp" />
+    <ClCompile Include="IACalcHexagon.cpp" />
+    <ClCompile Include="IACalcMarking.cc" />
+    <ClCompile Include="IACalcMatching.cpp" />
+    <ClCompile Include="IACAlcNode.cpp" />
+    <ClCompile Include="IACalcRingCrack.cpp" />
+    <ClCompile Include="IACalcSquare.cpp" />
+    <ClCompile Include="IACalcStarving.cpp" />
+    <ClCompile Include="IACalcTeeth.cpp" />
+    <ClCompile Include="IACalcThreadDamage.cpp" />
+    <ClCompile Include="IACalcThreadLocating.cpp" />
+    <ClCompile Include="IACalcThreads.cpp" />
+    <ClCompile Include="IAFindShape.cpp" />
+    <ClCompile Include="IAMain.cpp" />
+    <ClCompile Include="IAProcess.cpp" />
+    <ClCompile Include="IAROI.cpp" />
+    <ClCompile Include="msjexhnd.cpp">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">/EHa %(AdditionalOptions)</AdditionalOptions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="NIPoints.cpp" />
+    <ClCompile Include="NI\NIMachineVision.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="overlay.cc" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="PolygonNIFloat.cpp" />
+    <ClCompile Include="polygon_moments.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="sub_image.cpp" />
+    <ClCompile Include="tools_geometry.cc" />
+    <ClCompile Include="tools_ni.cc" />
+    <ClCompile Include="Utilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auto_array.h" />
+    <ClInclude Include="auto_filter.h" />
+    <ClInclude Include="basic_types.h" />
+    <ClInclude Include="calc_steps.h" />
+    <ClInclude Include="colors.h" />
+    <ClInclude Include="cv\blob.h" />
+    <ClInclude Include="cv\BlobContour.h" />
+    <ClInclude Include="cv\BlobLibraryConfiguration.h" />
+    <ClInclude Include="cv\BlobOperators.h" />
+    <ClInclude Include="cv\BlobProperties.h" />
+    <ClInclude Include="cv\BlobResult.h" />
+    <ClInclude Include="cv\ComponentLabeling.h" />
+    <ClInclude Include="cv\cv.h" />
+    <ClInclude Include="cv\cv.hpp" />
+    <ClInclude Include="cv\cvcompat.h" />
+    <ClInclude Include="cv\cvinternal.h" />
+    <ClInclude Include="cv\cvtypes.h" />
+    <ClInclude Include="cv\cvver.h" />
+    <ClInclude Include="cv\cxcore.h" />
+    <ClInclude Include="cv\cxcore.hpp" />
+    <ClInclude Include="cv\cxerror.h" />
+    <ClInclude Include="cv\cxflann.h" />
+    <ClInclude Include="cv\cxmat.hpp" />
+    <ClInclude Include="cv\cxmisc.h" />
+    <ClInclude Include="cv\cxoperations.hpp" />
+    <ClInclude Include="cv\cxtypes.h" />
+    <ClInclude Include="hi_res_timer.h" />
+    <ClInclude Include="IAFindShape.h" />
+    <ClInclude Include="IAMain.h" />
+    <ClInclude Include="log_entry.h" />
+    <ClInclude Include="msjexhnd.h" />
+    <ClInclude Include="NICalc.h" />
+    <ClInclude Include="NIDispose.h" />
+    <ClInclude Include="NIPoints.h" />
+    <ClInclude Include="NIROI.h" />
+    <ClInclude Include="NI\NIMV.h" />
+    <ClInclude Include="overlay.h" />
+    <ClInclude Include="point.h" />
+    <ClInclude Include="PolygonNIFloat.h" />
+    <ClInclude Include="polygon_moments.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="shadow_image.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="sub_image.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="tools_geometry.h" />
+    <ClInclude Include="tools_ni.h" />
+    <ClInclude Include="Utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageAnalysis.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="garbage.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

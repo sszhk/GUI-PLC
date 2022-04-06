@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob
+END
+LBIndustrialCtrlBase.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBIndustrialCtrlBase.designer.cs
+END
+LBAnalogMeter.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBAnalogMeter.designer.cs
+END
+LBIndustrialCtrlBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBIndustrialCtrlBase.cs
+END
+LBAnalogMeter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBAnalogMeter.cs
+END
+LBDigitalMeterRenderer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBDigitalMeterRenderer.cs
+END
+KnobRenderer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/KnobRenderer.cs
+END
+ColorMng.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/ColorMng.cs
+END
+LBLed.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBLed.designer.cs
+END
+LBLed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBLed.cs
+END
+LBKnob.resx
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBKnob.resx
+END
+LB7SegmentDisplayRenderer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LB7SegmentDisplayRenderer.cs
+END
+LBDigitalMeter.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBDigitalMeter.designer.cs
+END
+LBDigitalMeter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBDigitalMeter.cs
+END
+LedRenderer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LedRenderer.cs
+END
+LB7SegmentDisplay.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LB7SegmentDisplay.designer.cs
+END
+LB7SegmentDisplay.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LB7SegmentDisplay.cs
+END
+LBLed.resx
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBLed.resx
+END
+MeterRenderer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/MeterRenderer.cs
+END
+LBDigitalMeter.resx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBDigitalMeter.resx
+END
+MathFunc.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/MathFunc.cs
+END
+LBKnob.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBKnob.designer.cs
+END
+Renderer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/Renderer.cs
+END
+LBKnob.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBKnob.cs
+END
+LBMeterThreshold.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LBMeterThreshold.cs
+END
+LB7SegmentDisplay.resx
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Controls/Knob/LB7SegmentDisplay.resx
+END

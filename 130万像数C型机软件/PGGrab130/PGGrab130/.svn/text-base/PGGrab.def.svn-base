@@ -1,0 +1,18 @@
+LIBRARY	"PGGrab130"
+EXPORTS
+  GrabInit
+  GrabFree
+  GrabSetTrigger
+  GrabGetTrigger
+  GrabWidth
+  GrabHeight
+  GrabBpp
+  GrabStart
+  GrabStop
+  GrabLive
+  GrabSnap
+  GrabShowSetup
+  GrabSaveSettings
+  GrabLoadSettings
+  GrabGetSerial
+  GrabTotalCameras

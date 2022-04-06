@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.1.dtd">
+<dotfuscator version="2.1">
+  <!--This is application generated code. Do not edit manually.-->
+  <input>
+    <asmlist>
+      <inputassembly>
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <file dir="..\release" name="ImagingSortCharlie.exe" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="${configdir}\Dotfuscated" />
+  </output>
+  <renaming>
+    <excludelist>
+      <namespace name="CamConfig" />
+      <namespace name="ImagingSortCharlie.Data.Filters" />
+      <namespace name="ImagingSortCharlie.Data.Settings" />
+      <namespace name="ImagingSortCharlie.Properties" />
+      <type name="ViewIndex">
+        <field name="NONE" />
+        <field name="VIEW1" />
+        <field name="VIEW2" />
+        <field name="VIEW3" />
+        <field name="VIEW4" />
+        <field name="VIEW5" />
+        <field name="VIEW6" />
+        <field name="VIEWCOUNT" />
+      </type>
+      <type name="STATION_INDEX">
+        <field name="NONE" />
+        <field name="STATION_COUNT" />
+        <field name="STATION1" />
+        <field name="STATION2" />
+        <field name="STATION3" />
+        <field name="STATION4" />
+        <field name="STATION5" />
+        <field name="STATION6" />
+        <field name="STATION7" />
+      </type>
+      <type name="ImagingSortCharlie.Hardware.STATION">
+        <field name="STATION_COUNT" />
+        <field name="STATION1" />
+        <field name="STATION2" />
+        <field name="STATION3" />
+        <field name="STATION4" />
+      </type>
+      <type name="ImagingSortCharlie.Hardware.TeamType">
+        <field name="TEAM1" />
+        <field name="TEAM2" />
+        <field name="TEAM3" />
+        <field name="TEAM4" />
+        <field name="TEAM5" />
+        <field name="TEAMCOUNT" />
+      </type>
+      <type name="log_level">
+        <field name="LV_ALL" />
+        <field name="LV_CLOSE" />
+        <field name="LV_DEBUG" />
+        <field name="LV_ERROR" />
+        <field name="LV_FATAL" />
+        <field name="LV_INFO" />
+        <field name="LV_LAST" />
+        <field name="LV_WARNING" />
+      </type>
+      <type name="VIEW_INDEX">
+        <field name="NONE" />
+        <field name="VIEW_COUNT" />
+        <field name="VIEW1" />
+        <field name="VIEW2" />
+        <field name="VIEW3" />
+        <field name="VIEW4" />
+        <field name="VIEW5" />
+        <field name="VIEW6" />
+        <field name="VIEW7" />
+      </type>
+    </excludelist>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="." name="map.xml" />
+      </mapoutput>
+    </mapping>
+  </renaming>
+  <controlflow level="high" />
+  <codeprotection />
+  <licensing>
+    <permutation name="" />
+    <product versionmask="revision" />
+    <nolicenseaction name="showactivation" />
+    <unlockingfeature name="" />
+  </licensing>
+  <extattributes />
+</dotfuscator>

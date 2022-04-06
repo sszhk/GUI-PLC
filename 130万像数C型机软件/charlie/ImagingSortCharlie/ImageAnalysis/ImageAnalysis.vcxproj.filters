@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="adaptive_threshold.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="encrypt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcAngle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcArea.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcBurs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcCrack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcCushion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcDiameter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcDistance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcFillArea.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcHead.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcHexagon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcMarking.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcMatching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACAlcNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcRingCrack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcSquare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcStarving.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcTeeth.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcThreadDamage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcThreadLocating.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IACalcThreads.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IAFindShape.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IAMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IAProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IAROI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="msjexhnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NI\NIMachineVision.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NIPoints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon_moments.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonNIFloat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sub_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools_geometry.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools_ni.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auto_array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="auto_filter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\blob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\BlobContour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\BlobLibraryConfiguration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\BlobOperators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\BlobProperties.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\BlobResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calc_steps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\ComponentLabeling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cv.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cvcompat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cvinternal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cvtypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cvver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cxcore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cxcore.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cxerror.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cxflann.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cxmat.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cxmisc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cxoperations.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cv\cxtypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hi_res_timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IAFindShape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IAMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log_entry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="msjexhnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NICalc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NIDispose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NI\NIMV.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NIPoints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NIROI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon_moments.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonNIFloat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sub_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools_geometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools_ni.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageAnalysis.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="garbage.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

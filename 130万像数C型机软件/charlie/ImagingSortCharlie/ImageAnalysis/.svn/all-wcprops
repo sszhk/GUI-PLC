@@ -1,0 +1,425 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/als/!svn/ver/261/trunk/charlie/ImagingSortCharlie/ImageAnalysis
+END
+NICalc.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/als/!svn/ver/63/trunk/charlie/ImagingSortCharlie/ImageAnalysis/NICalc.h
+END
+IAMain.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/als/!svn/ver/244/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IAMain.h
+END
+DataStat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/DataStat.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/targetver.h
+END
+IACalcArea.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcArea.cc
+END
+basic_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/basic_types.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/dllmain.cpp
+END
+auto_filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/auto_filter.h
+END
+msjexhnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/msjexhnd.h
+END
+tools_ni.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/79/trunk/charlie/ImagingSortCharlie/ImageAnalysis/tools_ni.cc
+END
+point.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/als/!svn/ver/30/trunk/charlie/ImagingSortCharlie/ImageAnalysis/point.h
+END
+IACalcRingCrack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcRingCrack.cpp
+END
+IAROI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IAROI.cpp
+END
+IACalcThreadDamage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/als/!svn/ver/254/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcThreadDamage.cpp
+END
+IACalcCushion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/als/!svn/ver/232/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcCushion.cpp
+END
+Colors.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/Colors.h
+END
+IACalcTeeth.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/als/!svn/ver/261/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcTeeth.cpp
+END
+log_entry.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/log_entry.h
+END
+hi_res_timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/hi_res_timer.h
+END
+tools_geometry.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/tools_geometry.cc
+END
+IACalcFillArea.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcFillArea.cc
+END
+Utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/Utilities.h
+END
+tools_geometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/tools_geometry.h
+END
+overlay.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/overlay.h
+END
+IACalcHexagon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcHexagon.cpp
+END
+IACalcMatching.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcMatching.cpp
+END
+IACalcThreads.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcThreads.cpp
+END
+IACalcMarking.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/als/!svn/ver/29/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcMarking.cc
+END
+IAProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IAProcess.cpp
+END
+point.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/als/!svn/ver/30/trunk/charlie/ImagingSortCharlie/ImageAnalysis/point.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/ReadMe.txt
+END
+IACalcStarving.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/als/!svn/ver/58/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcStarving.cpp
+END
+tools_ni.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/79/trunk/charlie/ImagingSortCharlie/ImageAnalysis/tools_ni.h
+END
+shadow_image.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/shadow_image.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/stdafx.h
+END
+IACalcHead.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcHead.cpp
+END
+polygon_moments.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/als/!svn/ver/47/trunk/charlie/ImagingSortCharlie/ImageAnalysis/polygon_moments.h
+END
+sub_image.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/sub_image.h
+END
+PolygonNIFloat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/als/!svn/ver/57/trunk/charlie/ImagingSortCharlie/ImageAnalysis/PolygonNIFloat.cpp
+END
+ImageAnalysis.rc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/ImageAnalysis.rc
+END
+IACalcBurs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcBurs.cpp
+END
+NIPoints.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/30/trunk/charlie/ImagingSortCharlie/ImageAnalysis/NIPoints.h
+END
+Utilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/30/trunk/charlie/ImagingSortCharlie/ImageAnalysis/Utilities.cpp
+END
+adaptive_threshold.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/als/!svn/ver/232/trunk/charlie/ImagingSortCharlie/ImageAnalysis/adaptive_threshold.cc
+END
+IAFindShape.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/29/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IAFindShape.h
+END
+IACalcCrack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/als/!svn/ver/30/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcCrack.cpp
+END
+IACAlcNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACAlcNode.cpp
+END
+NIROI.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/NIROI.h
+END
+garbage.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/garbage.txt
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/stdafx.cpp
+END
+polygon_moments.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/als/!svn/ver/47/trunk/charlie/ImagingSortCharlie/ImageAnalysis/polygon_moments.cpp
+END
+sub_image.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/sub_image.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/resource.h
+END
+IACalcSquare.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/als/!svn/ver/232/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcSquare.cpp
+END
+IAMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/232/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IAMain.cpp
+END
+NIDispose.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/36/trunk/charlie/ImagingSortCharlie/ImageAnalysis/NIDispose.h
+END
+NIPoints.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/30/trunk/charlie/ImagingSortCharlie/ImageAnalysis/NIPoints.cpp
+END
+ImageAnalysis.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/als/!svn/ver/63/trunk/charlie/ImagingSortCharlie/ImageAnalysis/ImageAnalysis.vcproj
+END
+PolygonNIFloat.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/als/!svn/ver/57/trunk/charlie/ImagingSortCharlie/ImageAnalysis/PolygonNIFloat.h
+END
+IAFindShape.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/als/!svn/ver/233/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IAFindShape.cpp
+END
+auto_array.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/auto_array.h
+END
+IACalc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalc.cpp
+END
+msjexhnd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/msjexhnd.cpp
+END
+IACalcAngle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcAngle.cpp
+END
+overlay.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/overlay.cc
+END
+encrypt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/encrypt.cpp
+END
+calc_steps.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/calc_steps.h
+END
+IACalcThreadLocating.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcThreadLocating.cpp
+END
+IACalcDistance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/als/!svn/ver/232/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcDistance.cpp
+END
+IACalcDiameter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/als/!svn/ver/30/trunk/charlie/ImagingSortCharlie/ImageAnalysis/IACalcDiameter.cpp
+END

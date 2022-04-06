@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/als/!svn/ver/263/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters
+END
+CalcMarking.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcMarking.cs
+END
+CalcThreadLocating.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcThreadLocating.cs
+END
+NIAnnulus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/als/!svn/ver/232/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/NIAnnulus.cs
+END
+CalcHexagon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcHexagon.cs
+END
+CalcThreads.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcThreads.cs
+END
+CalcDiameter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcDiameter.cs
+END
+CalcDistance.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/als/!svn/ver/232/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcDistance.cs
+END
+NIRotatedRectangle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/NIRotatedRectangle.cs
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/als/!svn/ver/82/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/app.config
+END
+NIPoint.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/NIPoint.cs
+END
+CalcStarving.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/als/!svn/ver/58/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcStarving.cs
+END
+FilterList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/als/!svn/ver/263/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/FilterList.cs
+END
+CalcSquare.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcSquare.cs
+END
+CalcHead.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcHead.cs
+END
+CalcCracks.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcCracks.cs
+END
+CalcCushion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcCushion.cs
+END
+CalcArea.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcArea.cs
+END
+CalcWheelCrack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/als/!svn/ver/82/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcWheelCrack.cs
+END
+NIRectangle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/als/!svn/ver/232/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/NIRectangle.cs
+END
+CalcTeeth.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcTeeth.cs
+END
+IFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/als/!svn/ver/257/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/IFilter.cs
+END
+CalcThreadDameged.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/als/!svn/ver/111/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcThreadDameged.cs
+END
+CalcFillArea.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcFillArea.cs
+END
+ImageBinarize.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/ImageBinarize.cs
+END
+CalcNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcNode.cs
+END
+CalcAngle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/als/!svn/ver/10/trunk/charlie/ImagingSortCharlie/ImagingNuts/Data/Filters/CalcAngle.cs
+END

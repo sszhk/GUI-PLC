@@ -1,0 +1,10 @@
+E:\Prj\charlie\ImagingSortCharlie\Config_C\Release\ConfigApp.exe
+E:\Prj\charlie\ImagingSortCharlie\Config_C\Release\ConfigApp.pdb
+E:\Prj\charlie\ImagingSortCharlie\Config_C\Config\obj\Release\ResolveAssemblyReference.cache
+E:\Prj\charlie\ImagingSortCharlie\Config_C\Config\obj\Release\ConfigApp.Windows.form_main.resources
+E:\Prj\charlie\ImagingSortCharlie\Config_C\Config\obj\Release\ConfigApp.Properties.Resources.resources
+E:\Prj\charlie\ImagingSortCharlie\Config_C\Config\obj\Release\ConfigApp.Windows.uc_camera.resources
+E:\Prj\charlie\ImagingSortCharlie\Config_C\Config\obj\Release\ConfigApp.Windows.uc_settings.resources
+E:\Prj\charlie\ImagingSortCharlie\Config_C\Config\obj\Release\Config.csproj.GenerateResource.Cache
+E:\Prj\charlie\ImagingSortCharlie\Config_C\Config\obj\Release\ConfigApp.exe
+E:\Prj\charlie\ImagingSortCharlie\Config_C\Config\obj\Release\ConfigApp.pdb

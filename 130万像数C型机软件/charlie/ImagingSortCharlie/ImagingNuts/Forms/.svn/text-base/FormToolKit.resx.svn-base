@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnOpen.Name" xml:space="preserve">
+    <value>btnOpen</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ckEnable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbSnap.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbCreate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSnap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lvFilters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;plCalc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;tb_pack.Name" xml:space="preserve">
+    <value>tb_pack</value>
+  </data>
+  <data name="btnOpen.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="plCalc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 207</value>
+  </data>
+  <data name="btnClear.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="btnModify.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;tbSnapPath.Name" xml:space="preserve">
+    <value>tbSnapPath</value>
+  </data>
+  <data name="&gt;&gt;btnLoadSettings.Name" xml:space="preserve">
+    <value>btnLoadSettings</value>
+  </data>
+  <data name="btnLoadSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;lvFilters.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ckEnable.Name" xml:space="preserve">
+    <value>ckEnable</value>
+  </data>
+  <data name="lb_header_filters.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLoadSettings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ckContScrshot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnDown.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="lvTools.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnProfileColor.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cb_consecutive_bad_parts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plCalc.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lbSnap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 220</value>
+  </data>
+  <data name="&gt;&gt;btnShowSetup.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="btnAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDown.Text" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="cb_pack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSnap.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;lbCorrectionCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnModify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 21</value>
+  </data>
+  <data name="lbOutBlowCount.Text" xml:space="preserve">
+    <value>吹气超量</value>
+  </data>
+  <data name="btnApply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_unit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 110</value>
+  </data>
+  <data name="&gt;&gt;lb_header_filters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_unit.Name" xml:space="preserve">
+    <value>lb_unit</value>
+  </data>
+  <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 21</value>
+  </data>
+  <data name="ckContScrshot.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbCorrectionCount.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;btnCorrection.Name" xml:space="preserve">
+    <value>btnCorrection</value>
+  </data>
+  <data name="&gt;&gt;lvTools.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnShowSetup.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="btnProfileColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 24</value>
+  </data>
+  <data name="tbProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 3</value>
+  </data>
+  <data name="btnSnapPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb_check_feed.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;cbProfile.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="plMachineParam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 0</value>
+  </data>
+  <data name="btnLoadSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 24</value>
+  </data>
+  <data name="tbSnapPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 21</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb_header_tools.TabIndex" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseOpen.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;lb_header_tools.Name" xml:space="preserve">
+    <value>lb_header_tools</value>
+  </data>
+  <data name="&gt;&gt;plMachineParam.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cb_clear_plate.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;ckEnable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseOpen.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="cbProfile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="tb_clear_plate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 82</value>
+  </data>
+  <data name="Attribute.Width" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="btnDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 24</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cb_clear_plate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lb_unit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
+    <value>plNoSettings</value>
+  </data>
+  <data name="tbSnapPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbProfile.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cbProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 30</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="btnUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb_pack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="&gt;&gt;lvFilters.Parent" xml:space="preserve">
+    <value>plNoSettings</value>
+  </data>
+  <data name="tb_clear_plate.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="tb_consecutive_bad_parts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 35</value>
+  </data>
+  <data name="btnProfileColor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnBrowseOpen.Name" xml:space="preserve">
+    <value>btnBrowseOpen</value>
+  </data>
+  <data name="cb_clear_plate.Text" xml:space="preserve">
+    <value>清洗盘面</value>
+  </data>
+  <data name="lvTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 207</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plMachineParam.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="TestItem.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;plItemSettings.Name" xml:space="preserve">
+    <value>plItemSettings</value>
+  </data>
+  <data name="btnOK.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbSnap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lb_header_tools.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, -3</value>
+  </data>
+  <data name="&gt;&gt;btnSnap.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tb_check_feed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="lbCorrection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbOutBlowCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 46</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnDefault.Text" xml:space="preserve">
+    <value>默认(&amp;D)</value>
+  </data>
+  <data name="lb_header_filters.TabIndex" type="System.Int32, mscorlib">
+    <value>241</value>
+  </data>
+  <data name="lb_header_filters.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;TestItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cb_consecutive_bad_parts.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="cb_consecutive_bad_parts.Text" xml:space="preserve">
+    <value>连续不良品</value>
+  </data>
+  <data name="&gt;&gt;tbCreate.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 706</value>
+  </data>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb_consecutive_bad_parts.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;btnSnapPath.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;btnSnapPath.Name" xml:space="preserve">
+    <value>btnSnapPath</value>
+  </data>
+  <data name="&gt;&gt;plNoSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSnap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 24</value>
+  </data>
+  <data name="btnBrowseOpen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb_consecutive_bad_parts.Name" xml:space="preserve">
+    <value>tb_consecutive_bad_parts</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="btnDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnModify.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnModify.Name" xml:space="preserve">
+    <value>btnModify</value>
+  </data>
+  <data name="&gt;&gt;btnShowSetup.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tb_consecutive_bad_parts.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.CalcTextBox, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnProfileColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 46</value>
+  </data>
+  <data name="&gt;&gt;btnUp.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnProfileColor.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnProfileColor.Text" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="btnUp.Text" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="&gt;&gt;plMachineParam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plItemSettings.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="cb_clear_plate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="lbCorrection.Text" xml:space="preserve">
+    <value>未进行校正</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="btnCorrection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 637</value>
+  </data>
+  <data name="tbCreate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 30</value>
+  </data>
+  <data name="plCalc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>确定(&amp;O)</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 665</value>
+  </data>
+  <data name="&gt;&gt;TestItem.Name" xml:space="preserve">
+    <value>TestItem</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 24</value>
+  </data>
+  <data name="btnUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="cb_clear_plate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 80</value>
+  </data>
+  <data name="&gt;&gt;lvTools.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.ListViewEx, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSnapPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLoadSettings.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="cbProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;btnModify.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tbProfile.ToolTip" xml:space="preserve">
+    <value>点击这里更改</value>
+  </data>
+  <data name="btnClear.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ckContScrshot.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cb_pack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 56</value>
+  </data>
+  <data name="&gt;&gt;ckEnable.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lbOutBlowCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ckEnable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lvFilters.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;plMachineParam.Name" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="cb_clear_plate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSnapPath.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;lbOutBlowCount.Name" xml:space="preserve">
+    <value>lbOutBlowCount</value>
+  </data>
+  <data name="tbSnapPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 217</value>
+  </data>
+  <data name="&gt;&gt;lb_header_filters.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.Controls.SimpleHeader, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cb_pack.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ckContScrshot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 617</value>
+  </data>
+  <data name="btnModify.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 27</value>
+  </data>
+  <data name="btnRemove.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnDelete.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbCorrectionCount.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnUp.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tb_clear_plate.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.CalcTextBox, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSnap.Text" xml:space="preserve">
+    <value>抓图</value>
+  </data>
+  <data name="&gt;&gt;cb_pack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cb_consecutive_bad_parts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="btnAdd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBrowseOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="tbProfile.Text" xml:space="preserve">
+    <value>默认设置</value>
+  </data>
+  <data name="btnBrowseOpen.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;lbOutBlowCount.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;lb_header_tools.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lb_unit.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="tb_consecutive_bad_parts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;cbProfile.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="btnBrowseOpen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 610</value>
+  </data>
+  <data name="btnOpen.Text" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="Number.Text" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="btnShowSetup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 42</value>
+  </data>
+  <data name="&gt;&gt;btnProfileColor.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="plCalc.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 26</value>
+  </data>
+  <data name="tb_check_feed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>计算</value>
+  </data>
+  <data name="&gt;&gt;btnDown.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbCorrection.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="plMachineParam.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="btnLoadSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cbProfile.Name" xml:space="preserve">
+    <value>cbProfile</value>
+  </data>
+  <data name="&gt;&gt;tbProfile.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="tbProfile.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cb_consecutive_bad_parts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnShowSetup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ckContScrshot.Text" xml:space="preserve">
+    <value>连续抓图</value>
+  </data>
+  <data name="&gt;&gt;btnCorrection.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbOutBlowCount.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="lbOutBlowCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lb_header_filters.Name" xml:space="preserve">
+    <value>lb_header_filters</value>
+  </data>
+  <data name="tb_pack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="btnProfileColor.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;lb_header_tools.Parent" xml:space="preserve">
+    <value>plCalc</value>
+  </data>
+  <data name="&gt;&gt;Attribute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lvTools.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tb_clear_plate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 24</value>
+  </data>
+  <data name="cb_check_feed.Text" xml:space="preserve">
+    <value>缺料超时</value>
+  </data>
+  <data name="tbSnapPath.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="tb_pack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="ckEnable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 379</value>
+  </data>
+  <data name="&gt;&gt;tbCreate.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnDown.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;lb_header_tools.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.Controls.SimpleHeader, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cb_check_feed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lb_unit.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="btnCorrection.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;cb_check_feed.Name" xml:space="preserve">
+    <value>cb_check_feed</value>
+  </data>
+  <data name="&gt;&gt;tbProfile.Name" xml:space="preserve">
+    <value>tbProfile</value>
+  </data>
+  <data name="lbOutBlowCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_check_feed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 665</value>
+  </data>
+  <data name="lbCorrectionCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 12</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>plCalc</value>
+  </data>
+  <data name="lvFilters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lb_unit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="ckEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="tbProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;cb_clear_plate.Name" xml:space="preserve">
+    <value>cb_clear_plate</value>
+  </data>
+  <data name="btnSave.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cb_clear_plate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 32</value>
+  </data>
+  <data name="cb_consecutive_bad_parts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="btnRemove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCorrection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 24</value>
+  </data>
+  <data name="&gt;&gt;tb_clear_plate.Name" xml:space="preserve">
+    <value>tb_clear_plate</value>
+  </data>
+  <data name="&gt;&gt;tb_check_feed.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.CalcTextBox, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;plItemSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="plNoSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 206</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="lvTools.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbProfile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;plNoSettings.Name" xml:space="preserve">
+    <value>plNoSettings</value>
+  </data>
+  <data name="&gt;&gt;lvTools.Name" xml:space="preserve">
+    <value>lvTools</value>
+  </data>
+  <data name="&gt;&gt;lb_header_filters.Parent" xml:space="preserve">
+    <value>plNoSettings</value>
+  </data>
+  <data name="btnLoadSettings.Text" xml:space="preserve">
+    <value>更换</value>
+  </data>
+  <data name="lb_header_tools.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 24</value>
+  </data>
+  <data name="&gt;&gt;tbSnapPath.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;btnSnap.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="plNoSettings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnModify.Text" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="lvTools.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ckContScrshot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="ckContScrshot.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;btnCorrection.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="btnDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="lbCorrectionCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCorrection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 612</value>
+  </data>
+  <data name="tb_clear_plate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="&gt;&gt;tb_consecutive_bad_parts.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb_pack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cb_check_feed.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 42</value>
+  </data>
+  <data name="ckContScrshot.ToolTip" xml:space="preserve">
+    <value>当系统运转时，连续摄取并保存影像。将产生大量影像文件，仅供测试，请谨慎使用。</value>
+  </data>
+  <data name="&gt;&gt;plCalc.Name" xml:space="preserve">
+    <value>plCalc</value>
+  </data>
+  <data name="lbCorrection.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnSnap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 612</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="plItemSettings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb_consecutive_bad_parts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbProfile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;ckEnable.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbCorrectionCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb_check_feed.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbSnap.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="lbCorrection.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>应用设置...</value>
+  </data>
+  <data name="btnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCorrection.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbCorrection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plCalc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnModify.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbSnap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="&gt;&gt;cb_pack.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;ckContScrshot.Name" xml:space="preserve">
+    <value>ckContScrshot</value>
+  </data>
+  <data name="&gt;&gt;tb_check_feed.Name" xml:space="preserve">
+    <value>tb_check_feed</value>
+  </data>
+  <data name="&gt;&gt;lvTools.Parent" xml:space="preserve">
+    <value>plCalc</value>
+  </data>
+  <data name="cbProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCorrection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnProfileColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_unit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDefault.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbSnap.Text" xml:space="preserve">
+    <value>图片名称</value>
+  </data>
+  <data name="lbSnap.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUp.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="btnShowSetup.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnUp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbCorrection.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tb_pack.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbCorrection.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbCreate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbCreate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnLoadSettings.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;cb_clear_plate.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="tb_consecutive_bad_parts.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;cb_check_feed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbCreate.Text" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="btnLoadSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 7</value>
+  </data>
+  <data name="plNoSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 395</value>
+  </data>
+  <data name="&gt;&gt;Number.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormToolKit</value>
+  </data>
+  <data name="btnClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="lb_header_tools.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Number.Name" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbCorrection.Name" xml:space="preserve">
+    <value>lbCorrection</value>
+  </data>
+  <data name="cb_consecutive_bad_parts.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 21</value>
+  </data>
+  <data name="&gt;&gt;cb_clear_plate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TestItem.Text" xml:space="preserve">
+    <value>测量工具</value>
+  </data>
+  <data name="&gt;&gt;cb_pack.Name" xml:space="preserve">
+    <value>cb_pack</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Name" xml:space="preserve">
+    <value>btnRemove</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Number.Width" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="lbCorrection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>功能描述</value>
+  </data>
+  <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="btnOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 24</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbCreate.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnBrowseOpen.Text" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;btnLoadSettings.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;lvFilters.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.ListViewEx, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tb_pack.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btnSnap.Name" xml:space="preserve">
+    <value>btnSnap</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ckContScrshot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 28</value>
+  </data>
+  <data name="btnApply.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbOutBlowCount.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnUp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnModify.Parent" xml:space="preserve">
+    <value>plNoSettings</value>
+  </data>
+  <data name="cb_pack.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lbCorrectionCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;plNoSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnLoadSettings.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 352</value>
+  </data>
+  <data name="lbOutBlowCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="tb_pack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 58</value>
+  </data>
+  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 665</value>
+  </data>
+  <data name="btnDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 374</value>
+  </data>
+  <data name="&gt;&gt;tb_clear_plate.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSnapPath.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnModify.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plItemSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 204</value>
+  </data>
+  <data name="&gt;&gt;cbProfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="plMachineParam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 138</value>
+  </data>
+  <data name="&gt;&gt;btnUp.Name" xml:space="preserve">
+    <value>btnUp</value>
+  </data>
+  <data name="&gt;&gt;plItemSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbOutBlowCount.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lvFilters.Name" xml:space="preserve">
+    <value>lvFilters</value>
+  </data>
+  <data name="lbCorrection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="&gt;&gt;ckContScrshot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnShowSetup.Name" xml:space="preserve">
+    <value>btnShowSetup</value>
+  </data>
+  <data name="lb_header_filters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;tbSnapPath.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 665</value>
+  </data>
+  <data name="cbProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="btnBrowseOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 217</value>
+  </data>
+  <data name="lb_header_tools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="ckEnable.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;tbProfile.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.CalcTextBox, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbSnap.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbCreate.Name" xml:space="preserve">
+    <value>tbCreate</value>
+  </data>
+  <data name="btnDefault.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cb_check_feed.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="plNoSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="cb_check_feed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
+    <value>btnClear</value>
+  </data>
+  <data name="&gt;&gt;lbSnap.Name" xml:space="preserve">
+    <value>lbSnap</value>
+  </data>
+  <data name="&gt;&gt;Attribute.Name" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnShowSetup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>测量工具</value>
+  </data>
+  <data name="btnSnapPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 216</value>
+  </data>
+  <data name="&gt;&gt;lbCorrectionCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_clear_plate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbSnap.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="plItemSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnShowSetup.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;btnSnap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="plItemSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 396</value>
+  </data>
+  <data name="plCalc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 140</value>
+  </data>
+  <data name="cb_check_feed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 105</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lbSnap.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 352</value>
+  </data>
+  <data name="btnShowSetup.Text" xml:space="preserve">
+    <value>设置当前影像镜头</value>
+  </data>
+  <data name="&gt;&gt;lbCorrectionCount.Name" xml:space="preserve">
+    <value>lbCorrectionCount</value>
+  </data>
+  <data name="btnBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbCorrectionCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tb_pack.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;cb_consecutive_bad_parts.Name" xml:space="preserve">
+    <value>cb_consecutive_bad_parts</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseOpen.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.KeyButton, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnProfileColor.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tb_pack.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.CalcTextBox, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbCorrection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 623</value>
+  </data>
+  <data name="&gt;&gt;btnDown.Name" xml:space="preserve">
+    <value>btnDown</value>
+  </data>
+  <data name="btnSnapPath.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="tbCreate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 5</value>
+  </data>
+  <data name="cb_pack.Text" xml:space="preserve">
+    <value>包装</value>
+  </data>
+  <data name="lvFilters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 206</value>
+  </data>
+  <data name="btnOpen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Attribute.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="&gt;&gt;btnSnapPath.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnShowSetup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 46</value>
+  </data>
+  <data name="&gt;&gt;lbSnap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 374</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnBack.Text" xml:space="preserve">
+    <value>返回(&amp;B)</value>
+  </data>
+  <data name="lbCorrectionCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 57</value>
+  </data>
+  <data name="btnSnap.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;cb_consecutive_bad_parts.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 352</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="cb_consecutive_bad_parts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tb_check_feed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 107</value>
+  </data>
+  <data name="&gt;&gt;lb_unit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDefault.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="lbOutBlowCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tb_check_feed.Parent" xml:space="preserve">
+    <value>plMachineParam</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Name" xml:space="preserve">
+    <value>btnDefault</value>
+  </data>
+  <data name="lvFilters.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cb_check_feed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="&gt;&gt;tbSnapPath.Type" xml:space="preserve">
+    <value>ImagingSortCharlie.CalcTextBox, ImagingSortCharlie, Version=1.0.4093.29304, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="imageList1.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>2, 24</value>
+  </data>
+  <data name="btnSnapPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 23</value>
+  </data>
+  <data name="&gt;&gt;plNoSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ckEnable.Text" xml:space="preserve">
+    <value>启用影像</value>
+  </data>
+  <data name="btnRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="btnCorrection.Text" xml:space="preserve">
+    <value>校正</value>
+  </data>
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 27</value>
+  </data>
+  <data name="lb_header_filters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 27</value>
+  </data>
+  <data name="plMachineParam.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCorrection.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ckEnable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnProfileColor.Name" xml:space="preserve">
+    <value>btnProfileColor</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>English (United States)</value>
+  </metadata>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>118, 17</value>
+  </metadata>
+</root>

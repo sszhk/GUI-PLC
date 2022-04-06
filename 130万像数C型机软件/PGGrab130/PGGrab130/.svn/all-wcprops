@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/als/!svn/ver/192/trunk/PGGrab130/PGGrab130
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/stdafx.h
+END
+PGObj.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/als/!svn/ver/147/trunk/PGGrab130/PGGrab130/PGObj.cpp
+END
+PGGrab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/als/!svn/ver/192/trunk/PGGrab130/PGGrab130/PGGrab.cpp
+END
+PGObj.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/als/!svn/ver/148/trunk/PGGrab130/PGGrab130/PGObj.h
+END
+PGGrab130.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/als/!svn/ver/152/trunk/PGGrab130/PGGrab130/PGGrab130.vcproj
+END
+PGGrab.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/PGGrab.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/targetver.h
+END
+tinyxml.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/tinyxml.h
+END
+auto_array.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/auto_array.h
+END
+PGGrab.def
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/PGGrab.def
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/dllmain.cpp
+END
+tinystr.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/tinystr.h
+END
+pgobjmisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/als/!svn/ver/122/trunk/PGGrab130/PGGrab130/pgobjmisc.h
+END
+PG.rc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/PG.rc
+END
+tinyxml.lib
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/tinyxml.lib
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/als/!svn/ver/123/trunk/PGGrab130/PGGrab130/ReadMe.txt
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/resource.h
+END
+tinyxmld.lib
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/als/!svn/ver/121/trunk/PGGrab130/PGGrab130/tinyxmld.lib
+END

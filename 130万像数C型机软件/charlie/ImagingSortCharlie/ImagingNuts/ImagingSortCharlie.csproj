@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6FC9ECC0-2758-44AC-9FC8-1C5DBB1EBF74}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ImagingSortCharlie</RootNamespace>
+    <AssemblyName>ImagingSortCharlie</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>charlie.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;HD_VERSION</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>TRACE;NEED_REGISTER,HD_VERSION</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetSpeech, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.5.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.0.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TeamSystem.Data.UnitTesting, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\CalcTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CalcTextBox.designer.cs">
+      <DependentUpon>CalcTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DashLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DashLabel.designer.cs">
+      <DependentUpon>DashLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FlickerFreeList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FramedPicture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FramedPicture.designer.cs">
+      <DependentUpon>FramedPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GradientSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\KeyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\KeyButton.designer.cs">
+      <DependentUpon>KeyButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Knob\ColorMng.cs" />
+    <Compile Include="Controls\Knob\KnobRenderer.cs" />
+    <Compile Include="Controls\Knob\LB7SegmentDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Knob\LB7SegmentDisplay.designer.cs">
+      <DependentUpon>LB7SegmentDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Knob\LB7SegmentDisplayRenderer.cs" />
+    <Compile Include="Controls\Knob\LBAnalogMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Knob\LBAnalogMeter.designer.cs">
+      <DependentUpon>LBAnalogMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Knob\LBDigitalMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Knob\LBDigitalMeter.designer.cs">
+      <DependentUpon>LBDigitalMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Knob\LBDigitalMeterRenderer.cs" />
+    <Compile Include="Controls\Knob\LBIndustrialCtrlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Knob\LBIndustrialCtrlBase.designer.cs">
+      <DependentUpon>LBIndustrialCtrlBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Knob\LBKnob.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Knob\LBKnob.designer.cs">
+      <DependentUpon>LBKnob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Knob\LBLed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Knob\LBLed.designer.cs">
+      <DependentUpon>LBLed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Knob\LBMeterThreshold.cs" />
+    <Compile Include="Controls\Knob\LedRenderer.cs" />
+    <Compile Include="Controls\Knob\MathFunc.cs" />
+    <Compile Include="Controls\Knob\MeterRenderer.cs" />
+    <Compile Include="Controls\Knob\Renderer.cs" />
+    <Compile Include="Controls\ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ListViewEx.designer.cs">
+      <DependentUpon>ListViewEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NativeInterop.cs" />
+    <Compile Include="Controls\RoundFrame.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RoundFrame.designer.cs">
+      <DependentUpon>RoundFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RoundRectControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SimpleHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SimpleHeader.designer.cs">
+      <DependentUpon>SimpleHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SoftKeyboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data\Filters\CalcAngle.cs" />
+    <Compile Include="Data\Filters\CalcArea.cs" />
+    <Compile Include="Data\Filters\CalcCracks.cs" />
+    <Compile Include="Data\Filters\CalcCushion.cs" />
+    <Compile Include="Data\Filters\CalcDiameter.cs" />
+    <Compile Include="Data\Filters\CalcDistance.cs" />
+    <Compile Include="Data\Filters\CalcFillArea.cs" />
+    <Compile Include="Data\Filters\CalcHead.cs" />
+    <Compile Include="Data\Filters\CalcHexagon.cs" />
+    <Compile Include="Data\Filters\CalcMarking.cs" />
+    <Compile Include="Data\Filters\CalcNode.cs" />
+    <Compile Include="Data\Filters\CalcSquare.cs" />
+    <Compile Include="Data\Filters\CalcStarving.cs" />
+    <Compile Include="Data\Filters\CalcTeeth.cs" />
+    <Compile Include="Data\Filters\CalcThreads.cs" />
+    <Compile Include="Data\Filters\CalcThreadDameged.cs" />
+    <Compile Include="Data\Filters\CalcThreadLocating.cs" />
+    <Compile Include="Data\Filters\CalcWheelCrack.cs" />
+    <Compile Include="Data\Filters\FilterList.cs" />
+    <Compile Include="Data\Filters\IFilter.cs" />
+    <Compile Include="Data\Filters\ImageBinarize.cs" />
+    <Compile Include="Data\Filters\NIAnnulus.cs" />
+    <Compile Include="Data\Filters\NIPoint.cs" />
+    <Compile Include="Data\Filters\NIRectangle.cs" />
+    <Compile Include="Data\Filters\NIRotatedRectangle.cs" />
+    <Compile Include="Data\GD.cs" />
+    <Compile Include="Data\RingList.cs" />
+    <Compile Include="Data\Settings\CamConfig.cs" />
+    <Compile Include="Data\Settings\FaultyCount.cs" />
+    <Compile Include="Data\Settings\OperationRecords.cs" />
+    <Compile Include="Data\Settings\Settings.cs" />
+    <Compile Include="Data\Settings\Configure.cs" />
+    <Compile Include="Data\Settings\SettingsType.cs" />
+    <Compile Include="Forms\FormBlurMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBlurMsg.designer.cs">
+      <DependentUpon>FormBlurMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDarken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDarken.designer.cs">
+      <DependentUpon>FormDarken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMessage.Designer.cs">
+      <DependentUpon>FormMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProfile.Designer.cs">
+      <DependentUpon>FormProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProgress.designer.cs">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRegister.designer.cs">
+      <DependentUpon>FormRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormScrshot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormScrshot.Designer.cs">
+      <DependentUpon>FormScrshot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormToolKit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\FormToolKit.Designer.cs">
+      <DependentUpon>FormToolKit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ISetting.cs" />
+    <Compile Include="Forms\Message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Message.designer.cs">
+      <DependentUpon>Message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingAngle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingAngle.designer.cs">
+      <DependentUpon>SettingAngle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingArea.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingArea.Designer.cs">
+      <DependentUpon>SettingArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingBinarize.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingBinarize.designer.cs">
+      <DependentUpon>SettingBinarize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingCracks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingCracks.Designer.cs">
+      <DependentUpon>SettingCracks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingCushion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingCushion.Designer.cs">
+      <DependentUpon>SettingCushion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingDiameter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingDiameter.Designer.cs">
+      <DependentUpon>SettingDiameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingDistance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingDistance.designer.cs">
+      <DependentUpon>SettingDistance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingFillArea.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingFillArea.Designer.cs">
+      <DependentUpon>SettingFillArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingHead.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingHead.Designer.cs">
+      <DependentUpon>SettingHead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingHexagon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingHexagon.Designer.cs">
+      <DependentUpon>SettingHexagon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingMarking.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingMarking.Designer.cs">
+      <DependentUpon>SettingMarking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingNode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingNode.Designer.cs">
+      <DependentUpon>SettingNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingSquare.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingSquare.Designer.cs">
+      <DependentUpon>SettingSquare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingStarving.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingStarving.Designer.cs">
+      <DependentUpon>SettingStarving.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingTeeth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingTeeth.Designer.cs">
+      <DependentUpon>SettingTeeth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingThreads.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingThreads.Designer.cs">
+      <DependentUpon>SettingThreads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingThreadDameged.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingThreadDameged.Designer.cs">
+      <DependentUpon>SettingThreadDameged.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingThreadLocating.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingThreadLocating.Designer.cs">
+      <DependentUpon>SettingThreadLocating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SettingWheelCrack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingWheelCrack.Designer.cs">
+      <DependentUpon>SettingWheelCrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UCResults.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UCResults.Designer.cs">
+      <DependentUpon>UCResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UCTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UCTest.Designer.cs">
+      <DependentUpon>UCTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hardware\FrameGrabber.cs" />
+    <Compile Include="Hardware\MachineController.cs" />
+    <Compile Include="ImageAnalysis\IA.cs" />
+    <Compile Include="ImageAnalysis\IACalc.cs" />
+    <Compile Include="ImageAnalysis\IAProcess.cs" />
+    <Compile Include="ImageAnalysis\IAROI.cs" />
+    <Compile Include="Log\enLog.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\CalcTextBox.resx">
+      <DependentUpon>CalcTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FramedPicture.resx">
+      <DependentUpon>FramedPicture.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\KeyButton.resx">
+      <DependentUpon>KeyButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Knob\LB7SegmentDisplay.resx">
+      <DependentUpon>LB7SegmentDisplay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Knob\LBDigitalMeter.resx">
+      <DependentUpon>LBDigitalMeter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Knob\LBKnob.resx">
+      <DependentUpon>LBKnob.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Knob\LBLed.resx">
+      <DependentUpon>LBLed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RoundFrame.resx">
+      <DependentUpon>RoundFrame.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RoundRectControl.resx">
+      <DependentUpon>RoundRectControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SoftKeyboard.resx">
+      <DependentUpon>SoftKeyboard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBlurMsg.en-US.resx">
+      <DependentUpon>FormBlurMsg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBlurMsg.resx">
+      <DependentUpon>FormBlurMsg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDarken.resx">
+      <DependentUpon>FormDarken.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMain.en-US.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMessage.en-US.resx">
+      <DependentUpon>FormMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMessage.resx">
+      <DependentUpon>FormMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProfile.en-US.resx">
+      <DependentUpon>FormProfile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProfile.resx">
+      <DependentUpon>FormProfile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProgress.en-US.resx">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProgress.resx">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRegister.en-US.resx">
+      <DependentUpon>FormRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRegister.resx">
+      <DependentUpon>FormRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormScrshot.en-US.resx">
+      <DependentUpon>FormScrshot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormScrshot.resx">
+      <DependentUpon>FormScrshot.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormToolKit.en-US.resx">
+      <DependentUpon>FormToolKit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormToolKit.resx">
+      <DependentUpon>FormToolKit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Message.en-US.resx">
+      <DependentUpon>Message.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Message.resx">
+      <DependentUpon>Message.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingAngle.en-US.resx">
+      <DependentUpon>SettingAngle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingAngle.resx">
+      <DependentUpon>SettingAngle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingArea.en-US.resx">
+      <DependentUpon>SettingArea.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingArea.resx">
+      <DependentUpon>SettingArea.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingBinarize.en-US.resx">
+      <DependentUpon>SettingBinarize.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingBinarize.resx">
+      <DependentUpon>SettingBinarize.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingCracks.en-US.resx">
+      <DependentUpon>SettingCracks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingCracks.resx">
+      <DependentUpon>SettingCracks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingCushion.en-US.resx">
+      <DependentUpon>SettingCushion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingCushion.resx">
+      <DependentUpon>SettingCushion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingDiameter.en-US.resx">
+      <DependentUpon>SettingDiameter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingDiameter.resx">
+      <DependentUpon>SettingDiameter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingDistance.en-US.resx">
+      <DependentUpon>SettingDistance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingDistance.resx">
+      <DependentUpon>SettingDistance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingFillArea.en-US.resx">
+      <DependentUpon>SettingFillArea.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingFillArea.resx">
+      <DependentUpon>SettingFillArea.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingHead.en-US.resx">
+      <DependentUpon>SettingHead.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingHead.resx">
+      <DependentUpon>SettingHead.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingHexagon.en-US.resx">
+      <DependentUpon>SettingHexagon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingHexagon.resx">
+      <DependentUpon>SettingHexagon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingMarking.en-US.resx">
+      <DependentUpon>SettingMarking.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingMarking.resx">
+      <DependentUpon>SettingMarking.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingNode.en-US.resx">
+      <DependentUpon>SettingNode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingNode.resx">
+      <DependentUpon>SettingNode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingSquare.en-US.resx">
+      <DependentUpon>SettingSquare.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingSquare.resx">
+      <DependentUpon>SettingSquare.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingStarving.en-US.resx">
+      <DependentUpon>SettingStarving.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingStarving.resx">
+      <DependentUpon>SettingStarving.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingTeeth.en-US.resx">
+      <DependentUpon>SettingTeeth.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingTeeth.resx">
+      <DependentUpon>SettingTeeth.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingThreadLocating.en-US.resx">
+      <DependentUpon>SettingThreadLocating.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingThreads.en-US.resx">
+      <DependentUpon>SettingThreads.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingThreads.resx">
+      <DependentUpon>SettingThreads.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingThreadDameged.en-US.resx">
+      <DependentUpon>SettingThreadDameged.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingThreadDameged.resx">
+      <DependentUpon>SettingThreadDameged.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingThreadLocating.resx">
+      <DependentUpon>SettingThreadLocating.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingWheelCrack.resx">
+      <DependentUpon>SettingWheelCrack.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UCResults.en-US.resx">
+      <DependentUpon>UCResults.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UCResults.resx">
+      <DependentUpon>UCResults.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UCTest.en-US.resx">
+      <DependentUpon>UCTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UCTest.resx">
+      <DependentUpon>UCTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Utils\Authorization.cs" />
+    <Compile Include="Utils\CpuUsage.cs" />
+    <Compile Include="Utils\Devices\IFCDev.cs" />
+    <Compile Include="Utils\Devices\IGrab.cs" />
+    <Compile Include="Utils\Devices\PCI1710.cs" />
+    <Compile Include="Utils\Devices\PGGrab.cs" />
+    <Compile Include="Utils\Devices\IFCGrab.cs" />
+    <Compile Include="Utils\Geo.cs" />
+    <Compile Include="Utils\mini_dump.cs" />
+    <Compile Include="Utils\MsgBox\MsgBox.cs" />
+    <Compile Include="Utils\ObjectXMLSerializer.cs" />
+    <Compile Include="Utils\Speak.cs" />
+    <Compile Include="Utils\TextboxKeyFilter.cs" />
+    <Compile Include="Utils\TimeCounter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Adsapi32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Filters\app.config" />
+    <None Include="DefaultCamera.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Bolt.ico" />
+    <None Include="Depends\background_2052.png" />
+    <None Include="Depends\background_1033.png" />
+    <None Include="ClrDump.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="dbghelp.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="C配置选项.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="cpu_load.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Depends\Encrypt.xml" />
+    <None Include="DotNetSpeech.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ICSharpCode.SharpZipLib.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Debug.cmd" />
+    <None Include="Depends\install.iss" />
+    <None Include="IFCGrabNuts.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="itextsharp.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="PCI1710.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\horz_in.png" />
+    <None Include="Resources\horz_out.png" />
+    <None Include="Resources\vert_in.png" />
+    <None Include="Resources\vert_out.png" />
+    <None Include="Resources\background.png" />
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\gear_still1.png" />
+    <None Include="Resources\gear_still2.png" />
+    <None Include="Resources\gear_still3.png" />
+    <None Include="Resources\gear_still4.png" />
+    <None Include="Resources\artful_nuts.jpg" />
+    <None Include="PGGrab\PGGrab.h" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\Info48.png" />
+    <None Include="Resources\Info64.png" />
+    <None Include="Resources\Chinese.png" />
+    <None Include="Resources\Chinese_enable.png" />
+    <None Include="Resources\English.png" />
+    <None Include="Resources\English_enable.png" />
+    <None Include="Resources\shadow_block.png" />
+    <None Include="Resources\shadow_info.png" />
+    <None Include="Resources\shadow_ok.png" />
+    <None Include="Resources\shadow_process.png" />
+    <None Include="Resources\shadow_warning.png" />
+    <None Include="Resources\zoom_in.png" />
+    <None Include="Resources\zoom_out.png" />
+    <Content Include="Depends\install_big.bmp" />
+    <Content Include="Depends\install_small.bmp" />
+    <None Include="log_reader.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="PvAPI.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="PGGrabII.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="PGGrab130.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\background_1033.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\background_2052.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\hd_background_2052.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\hd_background_1033.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="System.Data.SQLite.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="PGGrab\TestGrab.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\_C_型机台\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>$(TargetPath) /rev $(ProjectDir)</PostBuildEvent>
+  </PropertyGroup>
+</Project>
