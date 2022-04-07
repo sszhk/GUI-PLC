@@ -9,7 +9,8 @@
 ################################################################################
 
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
-    QMetaObject, QObject, QPoint, QRect,QTimer,QSize, QTime, QUrl, Qt)
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
 from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
@@ -24,7 +25,6 @@ class Ui_Form(object):
         if not Form.objectName():
             Form.setObjectName(u"Form")
         Form.resize(650, 477)
-        self.timer=QTimer()
         self.verticalLayout_11 = QVBoxLayout(Form)
         self.verticalLayout_11.setObjectName(u"verticalLayout_11")
         self.tabWidget = QTabWidget(Form)
@@ -194,6 +194,7 @@ class Ui_Form(object):
         self.pushButton_7 = QPushButton(self.tab_2)
         self.pushButton_7.setObjectName(u"pushButton_7")
         self.pushButton_7.setAutoRepeat(True)
+        self.pushButton_7.setAutoRepeatInterval(1000)
 
         self.horizontalLayout_8.addWidget(self.pushButton_7)
 
